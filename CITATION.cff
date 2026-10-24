@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article and the datasets."
+title: "Lung masking in chest radiograph pneumonia classification: a leakage-controlled factorial study of discrimination, lesion-level grounding and shortcut reliance"
+type: software
+authors:
+  - family-names: Karateke
+    given-names: Hakan
+    orcid: "https://orcid.org/0009-0004-9174-4271"
+    affiliation: "Department of Computer Engineering, Fırat University, Elazığ, Türkiye"
+    email: 252129102@firat.edu.tr
+  - family-names: Karaduman
+    given-names: Gülşah
+    orcid: "https://orcid.org/0000-0001-8034-3019"
+    affiliation: "Department of Computer Engineering, Fırat University, Elazığ, Türkiye"
+repository-code: "https://github.com/Hakan-karateke/lung-masking-cxr-grounding"
+license: MIT

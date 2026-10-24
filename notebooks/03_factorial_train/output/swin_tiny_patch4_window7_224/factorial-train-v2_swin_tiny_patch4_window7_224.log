@@ -1,0 +1,216 @@
+11.5s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+11.5s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+11.5s 3 0.00s - to python to disable frozen modules.
+11.5s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+12.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+12.3s 7 0.00s - to python to disable frozen modules.
+12.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+44.9s 9 ARCH swin_tiny_patch4_window7_224 | device cuda | torch 2.11.0+cu128 | timm 1.0.29
+53.1s 10 internal {'raw': (5824, 224, 224), 'roi': (5824, 224, 224), 'lung': (5824, 224, 224)}
+55.4s 11 rsna {'raw': (2000, 224, 224), 'roi': (2000, 224, 224), 'lung': (2000, 224, 224)}
+57.6s 12 vindr {'raw': (1838, 224, 224), 'roi': (1838, 224, 224), 'lung': (1838, 224, 224)}
+60.6s 13 nih {'raw': (2783, 224, 224), 'roi': (2783, 224, 224), 'lung': (2783, 224, 224)}
+60.6s 14 split fingerprints (from V12): {'train': 'c443e812516ecf30', 'val': 'db515415832232a1', 'test': 'e852070e975c6646'}
+60.6s 15 {'train': (4413, 3272), 'val': (793, 586), 'test': (618, 387)} | external: ['rsna', 'nih', 'vindr']
+95.1s 16 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 01 loss 0.4095 val AUC 0.9903
+123.1s 17 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 02 loss 0.1177 val AUC 0.9948
+152.4s 18 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 03 loss 0.0928 val AUC 0.9962
+184.0s 19 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 04 loss 0.0776 val AUC 0.9973
+215.0s 20 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 05 loss 0.0650 val AUC 0.9979
+245.1s 21 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 06 loss 0.0681 val AUC 0.9980
+276.1s 22 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 07 loss 0.0577 val AUC 0.9984
+306.8s 23 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 08 loss 0.0492 val AUC 0.9983
+337.1s 24 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 09 loss 0.0430 val AUC 0.9985
+367.6s 25 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 10 loss 0.0453 val AUC 0.9987
+398.2s 26 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 11 loss 0.0469 val AUC 0.9988
+428.5s 27 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 12 loss 0.0410 val AUC 0.9989
+458.8s 28 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 13 loss 0.0294 val AUC 0.9990
+489.1s 29 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 14 loss 0.0329 val AUC 0.9990
+519.2s 30 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 15 loss 0.0311 val AUC 0.9988
+549.3s 31 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 16 loss 0.0347 val AUC 0.9989
+579.4s 32 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 17 loss 0.0238 val AUC 0.9989
+609.9s 33 [swin_tiny_patch4_window7_224 raw s42 lr1e-05 sweep] ep 18 loss 0.0265 val AUC 0.9989
+610.6s 34 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+610.6s 35 
+610.6s 36 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+642.0s 37 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 01 loss 0.2960 val AUC 0.9946
+673.2s 38 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 02 loss 0.1087 val AUC 0.9975
+704.3s 39 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 03 loss 0.1071 val AUC 0.9965
+735.1s 40 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 04 loss 0.0788 val AUC 0.9970
+766.0s 41 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 05 loss 0.0544 val AUC 0.9983
+796.6s 42 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 06 loss 0.0557 val AUC 0.9985
+827.2s 43 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 07 loss 0.0422 val AUC 0.9992
+857.5s 44 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 08 loss 0.0321 val AUC 0.9990
+887.8s 45 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 09 loss 0.0230 val AUC 0.9992
+917.9s 46 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 10 loss 0.0274 val AUC 0.9994
+948.1s 47 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 11 loss 0.0358 val AUC 0.9990
+978.0s 48 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 12 loss 0.0214 val AUC 0.9993
+1007.7s 49 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 13 loss 0.0179 val AUC 0.9995
+1037.3s 50 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 14 loss 0.0156 val AUC 0.9994
+1067.1s 51 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 15 loss 0.0123 val AUC 0.9993
+1096.9s 52 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 16 loss 0.0131 val AUC 0.9995
+1126.7s 53 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 17 loss 0.0080 val AUC 0.9994
+1156.3s 54 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 18 loss 0.0086 val AUC 0.9994
+1186.0s 55 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 19 loss 0.0087 val AUC 0.9994
+1215.8s 56 [swin_tiny_patch4_window7_224 raw s42 lr3e-05 sweep] ep 20 loss 0.0075 val AUC 0.9994
+1247.8s 57 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 01 loss 0.2482 val AUC 0.9963
+1278.9s 58 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 02 loss 0.1553 val AUC 0.9983
+1309.9s 59 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 03 loss 0.0929 val AUC 0.9979
+1340.8s 60 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 04 loss 0.0751 val AUC 0.9973
+1371.6s 61 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 05 loss 0.0682 val AUC 0.9976
+1402.2s 62 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 06 loss 0.0661 val AUC 0.9980
+1432.8s 63 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 07 loss 0.0491 val AUC 0.9986
+1462.9s 64 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 08 loss 0.0417 val AUC 0.9983
+1492.9s 65 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 09 loss 0.0215 val AUC 0.9987
+1522.8s 66 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 10 loss 0.0326 val AUC 0.9987
+1552.6s 67 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 11 loss 0.0210 val AUC 0.9982
+1582.5s 68 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 12 loss 0.0180 val AUC 0.9987
+1612.3s 69 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 13 loss 0.0097 val AUC 0.9987
+1642.1s 70 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 14 loss 0.0113 val AUC 0.9988
+1671.8s 71 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 15 loss 0.0052 val AUC 0.9986
+1701.6s 72 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 16 loss 0.0055 val AUC 0.9989
+1731.3s 73 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 17 loss 0.0086 val AUC 0.9989
+1760.9s 74 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 18 loss 0.0071 val AUC 0.9988
+1790.6s 75 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 19 loss 0.0042 val AUC 0.9988
+1820.5s 76 [swin_tiny_patch4_window7_224 raw s42 lr0.0001 sweep] ep 20 loss 0.0029 val AUC 0.9988
+1820.8s 77 chosen LR: 3e-05
+1841.5s 78 -> {'auc_val': 0.9995, 'auc_test': 0.9616, 'auc_rsna': 0.9186, 'auc_nih': 0.6893, 'auc_vindr': 0.7881}
+1841.5s 79 skip raw s42 (already done)
+1873.2s 80 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 01 loss 0.3366 val AUC 0.9835
+1904.4s 81 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 02 loss 0.1495 val AUC 0.9930
+1935.6s 82 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 03 loss 0.1447 val AUC 0.9916
+1966.9s 83 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 04 loss 0.1139 val AUC 0.9961
+1998.0s 84 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 05 loss 0.0834 val AUC 0.9972
+2028.7s 85 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 06 loss 0.0718 val AUC 0.9970
+2059.4s 86 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 07 loss 0.0776 val AUC 0.9967
+2090.0s 87 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 08 loss 0.0598 val AUC 0.9970
+2120.6s 88 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 09 loss 0.0475 val AUC 0.9971
+2151.1s 89 [swin_tiny_patch4_window7_224 roi s42 lr3e-05] ep 10 loss 0.0492 val AUC 0.9967
+2171.7s 90 -> {'auc_val': 0.9972, 'auc_test': 0.9845, 'auc_rsna': 0.9508, 'auc_nih': 0.7393, 'auc_vindr': 0.8495}
+2203.4s 91 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 01 loss 0.3199 val AUC 0.9869
+2234.6s 92 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 02 loss 0.1584 val AUC 0.9941
+2265.8s 93 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 03 loss 0.1325 val AUC 0.9915
+2296.9s 94 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 04 loss 0.1173 val AUC 0.9959
+2328.1s 95 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 05 loss 0.1012 val AUC 0.9964
+2359.1s 96 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 06 loss 0.0803 val AUC 0.9973
+2390.0s 97 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 07 loss 0.0728 val AUC 0.9971
+2420.9s 98 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 08 loss 0.0594 val AUC 0.9973
+2451.6s 99 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 09 loss 0.0470 val AUC 0.9968
+2482.1s 100 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 10 loss 0.0495 val AUC 0.9966
+2512.4s 101 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 11 loss 0.0397 val AUC 0.9970
+2542.6s 102 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 12 loss 0.0444 val AUC 0.9974
+2572.7s 103 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 13 loss 0.0298 val AUC 0.9971
+2602.8s 104 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 14 loss 0.0331 val AUC 0.9971
+2632.9s 105 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 15 loss 0.0310 val AUC 0.9969
+2663.1s 106 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 16 loss 0.0245 val AUC 0.9973
+2693.3s 107 [swin_tiny_patch4_window7_224 lung s42 lr3e-05] ep 17 loss 0.0252 val AUC 0.9973
+2714.0s 108 -> {'auc_val': 0.9974, 'auc_test': 0.9829, 'auc_rsna': 0.9421, 'auc_nih': 0.7249, 'auc_vindr': 0.8059}
+2745.9s 109 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 01 loss 0.3022 val AUC 0.9953
+2777.2s 110 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 02 loss 0.1286 val AUC 0.9962
+2808.4s 111 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 03 loss 0.0804 val AUC 0.9969
+2839.4s 112 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 04 loss 0.0592 val AUC 0.9981
+2870.1s 113 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 05 loss 0.0645 val AUC 0.9990
+2900.7s 114 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 06 loss 0.0561 val AUC 0.9987
+2931.4s 115 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 07 loss 0.0462 val AUC 0.9992
+2961.6s 116 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 08 loss 0.0343 val AUC 0.9989
+2992.1s 117 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 09 loss 0.0295 val AUC 0.9982
+3022.2s 118 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 10 loss 0.0214 val AUC 0.9990
+3052.3s 119 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 11 loss 0.0185 val AUC 0.9989
+3082.4s 120 [swin_tiny_patch4_window7_224 raw s1337 lr3e-05] ep 12 loss 0.0258 val AUC 0.9990
+3103.2s 121 -> {'auc_val': 0.9992, 'auc_test': 0.9769, 'auc_rsna': 0.9287, 'auc_nih': 0.6987, 'auc_vindr': 0.8205}
+3135.2s 122 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 01 loss 0.3347 val AUC 0.9858
+3166.5s 123 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 02 loss 0.1284 val AUC 0.9929
+3197.8s 124 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 03 loss 0.1090 val AUC 0.9947
+3229.1s 125 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 04 loss 0.0941 val AUC 0.9963
+3260.3s 126 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 05 loss 0.0908 val AUC 0.9966
+3291.4s 127 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 06 loss 0.0810 val AUC 0.9957
+3322.5s 128 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 07 loss 0.0632 val AUC 0.9971
+3353.4s 129 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 08 loss 0.0536 val AUC 0.9970
+3384.4s 130 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 09 loss 0.0550 val AUC 0.9977
+3415.2s 131 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 10 loss 0.0436 val AUC 0.9977
+3445.9s 132 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 11 loss 0.0341 val AUC 0.9969
+3476.4s 133 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 12 loss 0.0356 val AUC 0.9969
+3506.8s 134 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 13 loss 0.0345 val AUC 0.9975
+3537.2s 135 [swin_tiny_patch4_window7_224 roi s1337 lr3e-05] ep 14 loss 0.0205 val AUC 0.9974
+3558.0s 136 -> {'auc_val': 0.9977, 'auc_test': 0.9833, 'auc_rsna': 0.9365, 'auc_nih': 0.7223, 'auc_vindr': 0.8554}
+3589.9s 137 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 01 loss 0.3075 val AUC 0.9919
+3621.1s 138 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 02 loss 0.1388 val AUC 0.9926
+3652.1s 139 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 03 loss 0.1229 val AUC 0.9936
+3682.9s 140 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 04 loss 0.1078 val AUC 0.9959
+3713.6s 141 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 05 loss 0.0738 val AUC 0.9959
+3744.5s 142 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 06 loss 0.0795 val AUC 0.9964
+3775.5s 143 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 07 loss 0.0663 val AUC 0.9966
+3806.3s 144 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 08 loss 0.0621 val AUC 0.9969
+3837.0s 145 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 09 loss 0.0505 val AUC 0.9947
+3867.6s 146 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 10 loss 0.0412 val AUC 0.9963
+3898.0s 147 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 11 loss 0.0358 val AUC 0.9966
+3928.5s 148 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 12 loss 0.0483 val AUC 0.9966
+3959.0s 149 [swin_tiny_patch4_window7_224 lung s1337 lr3e-05] ep 13 loss 0.0350 val AUC 0.9961
+3979.8s 150 -> {'auc_val': 0.9969, 'auc_test': 0.9675, 'auc_rsna': 0.9547, 'auc_nih': 0.7417, 'auc_vindr': 0.8216}
+4011.7s 151 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 01 loss 0.3007 val AUC 0.9945
+4042.8s 152 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 02 loss 0.1062 val AUC 0.9955
+4073.6s 153 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 03 loss 0.0828 val AUC 0.9967
+4104.1s 154 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 04 loss 0.0527 val AUC 0.9970
+4134.6s 155 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 05 loss 0.0706 val AUC 0.9975
+4165.2s 156 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 06 loss 0.0630 val AUC 0.9979
+4195.7s 157 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 07 loss 0.0337 val AUC 0.9974
+4226.4s 158 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 08 loss 0.0322 val AUC 0.9986
+4256.9s 159 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 09 loss 0.0417 val AUC 0.9982
+4287.0s 160 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 10 loss 0.0254 val AUC 0.9985
+4317.2s 161 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 11 loss 0.0259 val AUC 0.9975
+4347.2s 162 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 12 loss 0.0202 val AUC 0.9983
+4377.4s 163 [swin_tiny_patch4_window7_224 raw s2024 lr3e-05] ep 13 loss 0.0179 val AUC 0.9978
+4398.0s 164 -> {'auc_val': 0.9986, 'auc_test': 0.9695, 'auc_rsna': 0.9185, 'auc_nih': 0.6946, 'auc_vindr': 0.8214}
+4429.9s 165 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 01 loss 0.3453 val AUC 0.9863
+4461.3s 166 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 02 loss 0.1841 val AUC 0.9903
+4492.6s 167 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 03 loss 0.1144 val AUC 0.9941
+4523.6s 168 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 04 loss 0.0922 val AUC 0.9940
+4554.8s 169 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 05 loss 0.0849 val AUC 0.9954
+4585.9s 170 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 06 loss 0.0963 val AUC 0.9943
+4616.9s 171 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 07 loss 0.0700 val AUC 0.9953
+4648.2s 172 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 08 loss 0.0618 val AUC 0.9971
+4678.9s 173 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 09 loss 0.0594 val AUC 0.9961
+4709.6s 174 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 10 loss 0.0406 val AUC 0.9954
+4740.1s 175 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 11 loss 0.0469 val AUC 0.9954
+4770.5s 176 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 12 loss 0.0435 val AUC 0.9969
+4801.0s 177 [swin_tiny_patch4_window7_224 roi s2024 lr3e-05] ep 13 loss 0.0344 val AUC 0.9960
+4821.7s 178 -> {'auc_val': 0.9971, 'auc_test': 0.9901, 'auc_rsna': 0.9446, 'auc_nih': 0.7329, 'auc_vindr': 0.8741}
+4853.6s 179 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 01 loss 0.3214 val AUC 0.9892
+4884.9s 180 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 02 loss 0.1610 val AUC 0.9920
+4916.0s 181 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 03 loss 0.1033 val AUC 0.9960
+4947.1s 182 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 04 loss 0.0906 val AUC 0.9961
+4978.0s 183 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 05 loss 0.1008 val AUC 0.9947
+5009.0s 184 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 06 loss 0.1003 val AUC 0.9955
+5039.8s 185 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 07 loss 0.0690 val AUC 0.9970
+5070.6s 186 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 08 loss 0.0591 val AUC 0.9967
+5101.3s 187 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 09 loss 0.0472 val AUC 0.9973
+5131.8s 188 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 10 loss 0.0471 val AUC 0.9965
+5162.4s 189 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 11 loss 0.0493 val AUC 0.9972
+5192.9s 190 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 12 loss 0.0392 val AUC 0.9977
+5223.3s 191 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 13 loss 0.0315 val AUC 0.9973
+5253.5s 192 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 14 loss 0.0424 val AUC 0.9973
+5283.6s 193 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 15 loss 0.0427 val AUC 0.9971
+5313.7s 194 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 16 loss 0.0246 val AUC 0.9970
+5343.9s 195 [swin_tiny_patch4_window7_224 lung s2024 lr3e-05] ep 17 loss 0.0208 val AUC 0.9971
+5364.4s 196 -> {'auc_val': 0.9977, 'auc_test': 0.972, 'auc_rsna': 0.9554, 'auc_nih': 0.7434, 'auc_vindr': 0.8314}
+5364.8s 197 arch  arm  seed  auc_val  auc_test  auc_rsna  auc_nih  auc_vindr  best_epoch  epochs_run  lr
+5364.8s 198 swin_tiny_patch4_window7_224 lung  1337   0.9969    0.9675    0.9547   0.7417     0.8216           8          13 0.0
+5364.8s 199 swin_tiny_patch4_window7_224 lung  2024   0.9977    0.9720    0.9554   0.7434     0.8314          12          17 0.0
+5364.8s 200 swin_tiny_patch4_window7_224 lung    42   0.9974    0.9829    0.9421   0.7249     0.8059          12          17 0.0
+5364.8s 201 swin_tiny_patch4_window7_224  raw  1337   0.9992    0.9769    0.9287   0.6987     0.8205           7          12 0.0
+5364.8s 202 swin_tiny_patch4_window7_224  raw  2024   0.9986    0.9695    0.9185   0.6946     0.8214           8          13 0.0
+5364.8s 203 swin_tiny_patch4_window7_224  raw    42   0.9995    0.9616    0.9186   0.6893     0.7881          16          20 0.0
+5364.8s 204 swin_tiny_patch4_window7_224  roi  1337   0.9977    0.9833    0.9365   0.7223     0.8554           9          14 0.0
+5364.8s 205 swin_tiny_patch4_window7_224  roi  2024   0.9971    0.9901    0.9446   0.7329     0.8741           8          13 0.0
+5364.8s 206 swin_tiny_patch4_window7_224  roi    42   0.9972    0.9845    0.9508   0.7393     0.8495           5          10 0.0
+5364.8s 207 missing runs: none, factorial complete for swin_tiny_patch4_window7_224
+5365.0s 208 elapsed 1.48 h
+5371.6s 209 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+5371.6s 210 cells[i][c] = re.sub('\\\\\|', '|', cell)
+5371.8s 211 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+5371.8s 212 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+5372.7s 213 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+5372.8s 214 [NbConvertApp] Writing 66399 bytes to __notebook__.ipynb
+5375.3s 215 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+5376.0s 216 [NbConvertApp] Writing 404084 bytes to __results__.html

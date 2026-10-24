@@ -1,0 +1,226 @@
+6.2s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.2s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.2s 3 0.00s - to python to disable frozen modules.
+6.2s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.8s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.8s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.8s 7 0.00s - to python to disable frozen modules.
+6.8s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+24.7s 9 ARCH convnext_tiny | device cuda | torch 2.11.0+cu128 | timm 1.0.29
+32.5s 10 internal {'raw': (5824, 224, 224), 'roi': (5824, 224, 224), 'lung': (5824, 224, 224)}
+34.8s 11 rsna {'raw': (2000, 224, 224), 'roi': (2000, 224, 224), 'lung': (2000, 224, 224)}
+37.0s 12 vindr {'raw': (1838, 224, 224), 'roi': (1838, 224, 224), 'lung': (1838, 224, 224)}
+39.9s 13 nih {'raw': (2783, 224, 224), 'roi': (2783, 224, 224), 'lung': (2783, 224, 224)}
+39.9s 14 split fingerprints (from V12): {'train': 'c443e812516ecf30', 'val': 'db515415832232a1', 'test': 'e852070e975c6646'}
+39.9s 15 {'train': (4413, 3272), 'val': (793, 586), 'test': (618, 387)} | external: ['rsna', 'nih', 'vindr']
+87.1s 16 [convnext_tiny raw s42 lr1e-05 sweep] ep 01 loss 0.2755 val AUC 0.9936
+108.0s 17 [convnext_tiny raw s42 lr1e-05 sweep] ep 02 loss 0.1072 val AUC 0.9980
+128.8s 18 [convnext_tiny raw s42 lr1e-05 sweep] ep 03 loss 0.0891 val AUC 0.9978
+149.8s 19 [convnext_tiny raw s42 lr1e-05 sweep] ep 04 loss 0.0918 val AUC 0.9980
+171.0s 20 [convnext_tiny raw s42 lr1e-05 sweep] ep 05 loss 0.0559 val AUC 0.9983
+192.1s 21 [convnext_tiny raw s42 lr1e-05 sweep] ep 06 loss 0.0359 val AUC 0.9978
+213.3s 22 [convnext_tiny raw s42 lr1e-05 sweep] ep 07 loss 0.0248 val AUC 0.9982
+234.7s 23 [convnext_tiny raw s42 lr1e-05 sweep] ep 08 loss 0.0214 val AUC 0.9984
+256.2s 24 [convnext_tiny raw s42 lr1e-05 sweep] ep 09 loss 0.0155 val AUC 0.9984
+277.8s 25 [convnext_tiny raw s42 lr1e-05 sweep] ep 10 loss 0.0131 val AUC 0.9986
+299.5s 26 [convnext_tiny raw s42 lr1e-05 sweep] ep 11 loss 0.0095 val AUC 0.9976
+321.1s 27 [convnext_tiny raw s42 lr1e-05 sweep] ep 12 loss 0.0081 val AUC 0.9978
+342.7s 28 [convnext_tiny raw s42 lr1e-05 sweep] ep 13 loss 0.0062 val AUC 0.9978
+364.3s 29 [convnext_tiny raw s42 lr1e-05 sweep] ep 14 loss 0.0061 val AUC 0.9979
+386.2s 30 [convnext_tiny raw s42 lr1e-05 sweep] ep 15 loss 0.0034 val AUC 0.9977
+386.8s 31 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+386.8s 32 
+386.8s 33 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+409.4s 34 [convnext_tiny raw s42 lr3e-05 sweep] ep 01 loss 0.2588 val AUC 0.9946
+431.6s 35 [convnext_tiny raw s42 lr3e-05 sweep] ep 02 loss 0.1242 val AUC 0.9983
+453.8s 36 [convnext_tiny raw s42 lr3e-05 sweep] ep 03 loss 0.1021 val AUC 0.9985
+476.1s 37 [convnext_tiny raw s42 lr3e-05 sweep] ep 04 loss 0.0777 val AUC 0.9986
+498.0s 38 [convnext_tiny raw s42 lr3e-05 sweep] ep 05 loss 0.0386 val AUC 0.9985
+520.0s 39 [convnext_tiny raw s42 lr3e-05 sweep] ep 06 loss 0.0433 val AUC 0.9985
+542.3s 40 [convnext_tiny raw s42 lr3e-05 sweep] ep 07 loss 0.0331 val AUC 0.9990
+564.3s 41 [convnext_tiny raw s42 lr3e-05 sweep] ep 08 loss 0.0298 val AUC 0.9983
+586.1s 42 [convnext_tiny raw s42 lr3e-05 sweep] ep 09 loss 0.0155 val AUC 0.9988
+608.0s 43 [convnext_tiny raw s42 lr3e-05 sweep] ep 10 loss 0.0072 val AUC 0.9983
+630.0s 44 [convnext_tiny raw s42 lr3e-05 sweep] ep 11 loss 0.0083 val AUC 0.9981
+652.0s 45 [convnext_tiny raw s42 lr3e-05 sweep] ep 12 loss 0.0063 val AUC 0.9983
+675.3s 46 [convnext_tiny raw s42 lr0.0001 sweep] ep 01 loss 0.2860 val AUC 0.9975
+697.7s 47 [convnext_tiny raw s42 lr0.0001 sweep] ep 02 loss 0.2350 val AUC 0.9981
+720.2s 48 [convnext_tiny raw s42 lr0.0001 sweep] ep 03 loss 0.1175 val AUC 0.9983
+742.4s 49 [convnext_tiny raw s42 lr0.0001 sweep] ep 04 loss 0.0800 val AUC 0.9983
+764.6s 50 [convnext_tiny raw s42 lr0.0001 sweep] ep 05 loss 0.0542 val AUC 0.9981
+786.9s 51 [convnext_tiny raw s42 lr0.0001 sweep] ep 06 loss 0.0494 val AUC 0.9984
+809.0s 52 [convnext_tiny raw s42 lr0.0001 sweep] ep 07 loss 0.0392 val AUC 0.9985
+831.1s 53 [convnext_tiny raw s42 lr0.0001 sweep] ep 08 loss 0.0477 val AUC 0.9985
+853.2s 54 [convnext_tiny raw s42 lr0.0001 sweep] ep 09 loss 0.0119 val AUC 0.9988
+875.2s 55 [convnext_tiny raw s42 lr0.0001 sweep] ep 10 loss 0.0253 val AUC 0.9984
+897.2s 56 [convnext_tiny raw s42 lr0.0001 sweep] ep 11 loss 0.0125 val AUC 0.9983
+919.1s 57 [convnext_tiny raw s42 lr0.0001 sweep] ep 12 loss 0.0076 val AUC 0.9986
+941.0s 58 [convnext_tiny raw s42 lr0.0001 sweep] ep 13 loss 0.0022 val AUC 0.9987
+962.9s 59 [convnext_tiny raw s42 lr0.0001 sweep] ep 14 loss 0.0049 val AUC 0.9989
+984.8s 60 [convnext_tiny raw s42 lr0.0001 sweep] ep 15 loss 0.0022 val AUC 0.9988
+1006.7s 61 [convnext_tiny raw s42 lr0.0001 sweep] ep 16 loss 0.0019 val AUC 0.9988
+1028.7s 62 [convnext_tiny raw s42 lr0.0001 sweep] ep 17 loss 0.0049 val AUC 0.9988
+1050.6s 63 [convnext_tiny raw s42 lr0.0001 sweep] ep 18 loss 0.0028 val AUC 0.9988
+1072.6s 64 [convnext_tiny raw s42 lr0.0001 sweep] ep 19 loss 0.0027 val AUC 0.9988
+1072.8s 65 chosen LR: 3e-05
+1107.1s 66 -> {'auc_val': 0.999, 'auc_test': 0.9559, 'auc_rsna': 0.9366, 'auc_nih': 0.7084, 'auc_vindr': 0.8017}
+1107.1s 67 skip raw s42 (already done)
+1129.8s 68 [convnext_tiny roi s42 lr3e-05] ep 01 loss 0.2838 val AUC 0.9894
+1152.1s 69 [convnext_tiny roi s42 lr3e-05] ep 02 loss 0.1565 val AUC 0.9934
+1174.4s 70 [convnext_tiny roi s42 lr3e-05] ep 03 loss 0.1204 val AUC 0.9958
+1196.7s 71 [convnext_tiny roi s42 lr3e-05] ep 04 loss 0.0955 val AUC 0.9961
+1219.0s 72 [convnext_tiny roi s42 lr3e-05] ep 05 loss 0.0767 val AUC 0.9969
+1241.1s 73 [convnext_tiny roi s42 lr3e-05] ep 06 loss 0.0541 val AUC 0.9956
+1263.6s 74 [convnext_tiny roi s42 lr3e-05] ep 07 loss 0.0713 val AUC 0.9966
+1286.7s 75 [convnext_tiny roi s42 lr3e-05] ep 08 loss 0.0278 val AUC 0.9955
+1309.4s 76 [convnext_tiny roi s42 lr3e-05] ep 09 loss 0.0256 val AUC 0.9968
+1331.8s 77 [convnext_tiny roi s42 lr3e-05] ep 10 loss 0.0181 val AUC 0.9968
+1346.0s 78 -> {'auc_val': 0.9969, 'auc_test': 0.9847, 'auc_rsna': 0.9525, 'auc_nih': 0.7356, 'auc_vindr': 0.8651}
+1369.7s 79 [convnext_tiny lung s42 lr3e-05] ep 01 loss 0.2812 val AUC 0.9841
+1392.7s 80 [convnext_tiny lung s42 lr3e-05] ep 02 loss 0.1913 val AUC 0.9945
+1415.6s 81 [convnext_tiny lung s42 lr3e-05] ep 03 loss 0.1336 val AUC 0.9965
+1438.3s 82 [convnext_tiny lung s42 lr3e-05] ep 04 loss 0.1164 val AUC 0.9969
+1461.0s 83 [convnext_tiny lung s42 lr3e-05] ep 05 loss 0.0770 val AUC 0.9965
+1483.6s 84 [convnext_tiny lung s42 lr3e-05] ep 06 loss 0.0647 val AUC 0.9958
+1506.2s 85 [convnext_tiny lung s42 lr3e-05] ep 07 loss 0.0674 val AUC 0.9970
+1528.8s 86 [convnext_tiny lung s42 lr3e-05] ep 08 loss 0.0384 val AUC 0.9980
+1551.4s 87 [convnext_tiny lung s42 lr3e-05] ep 09 loss 0.0414 val AUC 0.9978
+1573.9s 88 [convnext_tiny lung s42 lr3e-05] ep 10 loss 0.0355 val AUC 0.9967
+1596.4s 89 [convnext_tiny lung s42 lr3e-05] ep 11 loss 0.0232 val AUC 0.9975
+1618.9s 90 [convnext_tiny lung s42 lr3e-05] ep 12 loss 0.0133 val AUC 0.9981
+1641.3s 91 [convnext_tiny lung s42 lr3e-05] ep 13 loss 0.0121 val AUC 0.9979
+1663.7s 92 [convnext_tiny lung s42 lr3e-05] ep 14 loss 0.0070 val AUC 0.9945
+1686.1s 93 [convnext_tiny lung s42 lr3e-05] ep 15 loss 0.0118 val AUC 0.9977
+1708.4s 94 [convnext_tiny lung s42 lr3e-05] ep 16 loss 0.0046 val AUC 0.9979
+1730.9s 95 [convnext_tiny lung s42 lr3e-05] ep 17 loss 0.0084 val AUC 0.9978
+1745.1s 96 -> {'auc_val': 0.9981, 'auc_test': 0.9876, 'auc_rsna': 0.9462, 'auc_nih': 0.729, 'auc_vindr': 0.8234}
+1768.8s 97 [convnext_tiny raw s1337 lr3e-05] ep 01 loss 0.2491 val AUC 0.9958
+1791.7s 98 [convnext_tiny raw s1337 lr3e-05] ep 02 loss 0.1509 val AUC 0.9953
+1814.6s 99 [convnext_tiny raw s1337 lr3e-05] ep 03 loss 0.0829 val AUC 0.9962
+1837.4s 100 [convnext_tiny raw s1337 lr3e-05] ep 04 loss 0.0781 val AUC 0.9972
+1860.1s 101 [convnext_tiny raw s1337 lr3e-05] ep 05 loss 0.0488 val AUC 0.9982
+1882.7s 102 [convnext_tiny raw s1337 lr3e-05] ep 06 loss 0.0573 val AUC 0.9981
+1905.3s 103 [convnext_tiny raw s1337 lr3e-05] ep 07 loss 0.0291 val AUC 0.9985
+1927.9s 104 [convnext_tiny raw s1337 lr3e-05] ep 08 loss 0.0301 val AUC 0.9981
+1950.4s 105 [convnext_tiny raw s1337 lr3e-05] ep 09 loss 0.0293 val AUC 0.9983
+1972.8s 106 [convnext_tiny raw s1337 lr3e-05] ep 10 loss 0.0101 val AUC 0.9982
+1995.2s 107 [convnext_tiny raw s1337 lr3e-05] ep 11 loss 0.0043 val AUC 0.9983
+2017.7s 108 [convnext_tiny raw s1337 lr3e-05] ep 12 loss 0.0171 val AUC 0.9983
+2032.0s 109 -> {'auc_val': 0.9985, 'auc_test': 0.9769, 'auc_rsna': 0.937, 'auc_nih': 0.7072, 'auc_vindr': 0.822}
+2055.7s 110 [convnext_tiny roi s1337 lr3e-05] ep 01 loss 0.2985 val AUC 0.9828
+2078.8s 111 [convnext_tiny roi s1337 lr3e-05] ep 02 loss 0.1496 val AUC 0.9922
+2101.8s 112 [convnext_tiny roi s1337 lr3e-05] ep 03 loss 0.1615 val AUC 0.9926
+2124.8s 113 [convnext_tiny roi s1337 lr3e-05] ep 04 loss 0.1107 val AUC 0.9947
+2147.6s 114 [convnext_tiny roi s1337 lr3e-05] ep 05 loss 0.0986 val AUC 0.9963
+2170.3s 115 [convnext_tiny roi s1337 lr3e-05] ep 06 loss 0.0697 val AUC 0.9959
+2193.0s 116 [convnext_tiny roi s1337 lr3e-05] ep 07 loss 0.0509 val AUC 0.9961
+2215.7s 117 [convnext_tiny roi s1337 lr3e-05] ep 08 loss 0.0407 val AUC 0.9962
+2238.3s 118 [convnext_tiny roi s1337 lr3e-05] ep 09 loss 0.0443 val AUC 0.9962
+2261.0s 119 [convnext_tiny roi s1337 lr3e-05] ep 10 loss 0.0200 val AUC 0.9968
+2283.5s 120 [convnext_tiny roi s1337 lr3e-05] ep 11 loss 0.0179 val AUC 0.9959
+2306.0s 121 [convnext_tiny roi s1337 lr3e-05] ep 12 loss 0.0187 val AUC 0.9967
+2328.5s 122 [convnext_tiny roi s1337 lr3e-05] ep 13 loss 0.0111 val AUC 0.9967
+2351.1s 123 [convnext_tiny roi s1337 lr3e-05] ep 14 loss 0.0066 val AUC 0.9972
+2373.5s 124 [convnext_tiny roi s1337 lr3e-05] ep 15 loss 0.0035 val AUC 0.9969
+2396.0s 125 [convnext_tiny roi s1337 lr3e-05] ep 16 loss 0.0035 val AUC 0.9970
+2418.5s 126 [convnext_tiny roi s1337 lr3e-05] ep 17 loss 0.0043 val AUC 0.9970
+2441.0s 127 [convnext_tiny roi s1337 lr3e-05] ep 18 loss 0.0005 val AUC 0.9969
+2463.5s 128 [convnext_tiny roi s1337 lr3e-05] ep 19 loss 0.0006 val AUC 0.9969
+2477.7s 129 -> {'auc_val': 0.9972, 'auc_test': 0.9886, 'auc_rsna': 0.9514, 'auc_nih': 0.731, 'auc_vindr': 0.8623}
+2501.2s 130 [convnext_tiny lung s1337 lr3e-05] ep 01 loss 0.2839 val AUC 0.9949
+2524.2s 131 [convnext_tiny lung s1337 lr3e-05] ep 02 loss 0.1778 val AUC 0.9954
+2546.9s 132 [convnext_tiny lung s1337 lr3e-05] ep 03 loss 0.1119 val AUC 0.9942
+2569.6s 133 [convnext_tiny lung s1337 lr3e-05] ep 04 loss 0.0968 val AUC 0.9963
+2592.4s 134 [convnext_tiny lung s1337 lr3e-05] ep 05 loss 0.0915 val AUC 0.9973
+2615.1s 135 [convnext_tiny lung s1337 lr3e-05] ep 06 loss 0.0697 val AUC 0.9973
+2637.6s 136 [convnext_tiny lung s1337 lr3e-05] ep 07 loss 0.0480 val AUC 0.9972
+2660.2s 137 [convnext_tiny lung s1337 lr3e-05] ep 08 loss 0.0394 val AUC 0.9976
+2682.7s 138 [convnext_tiny lung s1337 lr3e-05] ep 09 loss 0.0425 val AUC 0.9935
+2705.1s 139 [convnext_tiny lung s1337 lr3e-05] ep 10 loss 0.0197 val AUC 0.9974
+2727.5s 140 [convnext_tiny lung s1337 lr3e-05] ep 11 loss 0.0168 val AUC 0.9977
+2749.9s 141 [convnext_tiny lung s1337 lr3e-05] ep 12 loss 0.0254 val AUC 0.9972
+2772.3s 142 [convnext_tiny lung s1337 lr3e-05] ep 13 loss 0.0089 val AUC 0.9969
+2794.7s 143 [convnext_tiny lung s1337 lr3e-05] ep 14 loss 0.0142 val AUC 0.9974
+2817.2s 144 [convnext_tiny lung s1337 lr3e-05] ep 15 loss 0.0040 val AUC 0.9974
+2839.7s 145 [convnext_tiny lung s1337 lr3e-05] ep 16 loss 0.0040 val AUC 0.9976
+2853.9s 146 -> {'auc_val': 0.9977, 'auc_test': 0.972, 'auc_rsna': 0.9541, 'auc_nih': 0.7387, 'auc_vindr': 0.8559}
+2877.5s 147 [convnext_tiny raw s2024 lr3e-05] ep 01 loss 0.2706 val AUC 0.9908
+2900.4s 148 [convnext_tiny raw s2024 lr3e-05] ep 02 loss 0.1645 val AUC 0.9964
+2923.3s 149 [convnext_tiny raw s2024 lr3e-05] ep 03 loss 0.0920 val AUC 0.9974
+2945.8s 150 [convnext_tiny raw s2024 lr3e-05] ep 04 loss 0.0498 val AUC 0.9977
+2968.4s 151 [convnext_tiny raw s2024 lr3e-05] ep 05 loss 0.0473 val AUC 0.9976
+2991.0s 152 [convnext_tiny raw s2024 lr3e-05] ep 06 loss 0.0522 val AUC 0.9978
+3013.7s 153 [convnext_tiny raw s2024 lr3e-05] ep 07 loss 0.0336 val AUC 0.9977
+3036.2s 154 [convnext_tiny raw s2024 lr3e-05] ep 08 loss 0.0408 val AUC 0.9980
+3058.7s 155 [convnext_tiny raw s2024 lr3e-05] ep 09 loss 0.0175 val AUC 0.9981
+3081.2s 156 [convnext_tiny raw s2024 lr3e-05] ep 10 loss 0.0224 val AUC 0.9980
+3103.7s 157 [convnext_tiny raw s2024 lr3e-05] ep 11 loss 0.0116 val AUC 0.9979
+3126.2s 158 [convnext_tiny raw s2024 lr3e-05] ep 12 loss 0.0089 val AUC 0.9982
+3148.5s 159 [convnext_tiny raw s2024 lr3e-05] ep 13 loss 0.0061 val AUC 0.9981
+3170.9s 160 [convnext_tiny raw s2024 lr3e-05] ep 14 loss 0.0015 val AUC 0.9979
+3193.4s 161 [convnext_tiny raw s2024 lr3e-05] ep 15 loss 0.0025 val AUC 0.9980
+3215.8s 162 [convnext_tiny raw s2024 lr3e-05] ep 16 loss 0.0018 val AUC 0.9980
+3238.2s 163 [convnext_tiny raw s2024 lr3e-05] ep 17 loss 0.0006 val AUC 0.9980
+3252.5s 164 -> {'auc_val': 0.9982, 'auc_test': 0.9745, 'auc_rsna': 0.9245, 'auc_nih': 0.6911, 'auc_vindr': 0.8131}
+3276.2s 165 [convnext_tiny roi s2024 lr3e-05] ep 01 loss 0.2719 val AUC 0.9909
+3299.4s 166 [convnext_tiny roi s2024 lr3e-05] ep 02 loss 0.1399 val AUC 0.9914
+3322.3s 167 [convnext_tiny roi s2024 lr3e-05] ep 03 loss 0.1041 val AUC 0.9954
+3344.9s 168 [convnext_tiny roi s2024 lr3e-05] ep 04 loss 0.0698 val AUC 0.9948
+3367.7s 169 [convnext_tiny roi s2024 lr3e-05] ep 05 loss 0.0860 val AUC 0.9953
+3390.4s 170 [convnext_tiny roi s2024 lr3e-05] ep 06 loss 0.0848 val AUC 0.9956
+3413.2s 171 [convnext_tiny roi s2024 lr3e-05] ep 07 loss 0.0795 val AUC 0.9963
+3435.8s 172 [convnext_tiny roi s2024 lr3e-05] ep 08 loss 0.0394 val AUC 0.9959
+3458.5s 173 [convnext_tiny roi s2024 lr3e-05] ep 09 loss 0.0699 val AUC 0.9956
+3481.2s 174 [convnext_tiny roi s2024 lr3e-05] ep 10 loss 0.0228 val AUC 0.9966
+3503.8s 175 [convnext_tiny roi s2024 lr3e-05] ep 11 loss 0.0248 val AUC 0.9968
+3526.5s 176 [convnext_tiny roi s2024 lr3e-05] ep 12 loss 0.0147 val AUC 0.9969
+3549.0s 177 [convnext_tiny roi s2024 lr3e-05] ep 13 loss 0.0107 val AUC 0.9969
+3571.5s 178 [convnext_tiny roi s2024 lr3e-05] ep 14 loss 0.0081 val AUC 0.9972
+3594.1s 179 [convnext_tiny roi s2024 lr3e-05] ep 15 loss 0.0067 val AUC 0.9975
+3616.6s 180 [convnext_tiny roi s2024 lr3e-05] ep 16 loss 0.0056 val AUC 0.9974
+3639.1s 181 [convnext_tiny roi s2024 lr3e-05] ep 17 loss 0.0012 val AUC 0.9974
+3661.6s 182 [convnext_tiny roi s2024 lr3e-05] ep 18 loss 0.0041 val AUC 0.9974
+3684.1s 183 [convnext_tiny roi s2024 lr3e-05] ep 19 loss 0.0004 val AUC 0.9974
+3706.7s 184 [convnext_tiny roi s2024 lr3e-05] ep 20 loss 0.0022 val AUC 0.9974
+3721.0s 185 -> {'auc_val': 0.9975, 'auc_test': 0.9823, 'auc_rsna': 0.9467, 'auc_nih': 0.7333, 'auc_vindr': 0.8935}
+3744.6s 186 [convnext_tiny lung s2024 lr3e-05] ep 01 loss 0.2834 val AUC 0.9916
+3767.6s 187 [convnext_tiny lung s2024 lr3e-05] ep 02 loss 0.1706 val AUC 0.9946
+3790.6s 188 [convnext_tiny lung s2024 lr3e-05] ep 03 loss 0.1401 val AUC 0.9958
+3813.5s 189 [convnext_tiny lung s2024 lr3e-05] ep 04 loss 0.1026 val AUC 0.9959
+3836.2s 190 [convnext_tiny lung s2024 lr3e-05] ep 05 loss 0.0786 val AUC 0.9945
+3859.0s 191 [convnext_tiny lung s2024 lr3e-05] ep 06 loss 0.0725 val AUC 0.9969
+3881.6s 192 [convnext_tiny lung s2024 lr3e-05] ep 07 loss 0.0617 val AUC 0.9967
+3904.3s 193 [convnext_tiny lung s2024 lr3e-05] ep 08 loss 0.0469 val AUC 0.9974
+3926.9s 194 [convnext_tiny lung s2024 lr3e-05] ep 09 loss 0.0332 val AUC 0.9963
+3949.5s 195 [convnext_tiny lung s2024 lr3e-05] ep 10 loss 0.0240 val AUC 0.9962
+3972.0s 196 [convnext_tiny lung s2024 lr3e-05] ep 11 loss 0.0231 val AUC 0.9968
+3994.5s 197 [convnext_tiny lung s2024 lr3e-05] ep 12 loss 0.0142 val AUC 0.9972
+4017.0s 198 [convnext_tiny lung s2024 lr3e-05] ep 13 loss 0.0134 val AUC 0.9974
+4039.6s 199 [convnext_tiny lung s2024 lr3e-05] ep 14 loss 0.0049 val AUC 0.9975
+4062.1s 200 [convnext_tiny lung s2024 lr3e-05] ep 15 loss 0.0128 val AUC 0.9976
+4084.6s 201 [convnext_tiny lung s2024 lr3e-05] ep 16 loss 0.0046 val AUC 0.9977
+4107.1s 202 [convnext_tiny lung s2024 lr3e-05] ep 17 loss 0.0084 val AUC 0.9978
+4129.6s 203 [convnext_tiny lung s2024 lr3e-05] ep 18 loss 0.0049 val AUC 0.9977
+4152.1s 204 [convnext_tiny lung s2024 lr3e-05] ep 19 loss 0.0004 val AUC 0.9977
+4174.6s 205 [convnext_tiny lung s2024 lr3e-05] ep 20 loss 0.0031 val AUC 0.9977
+4188.7s 206 -> {'auc_val': 0.9978, 'auc_test': 0.9562, 'auc_rsna': 0.9399, 'auc_nih': 0.7209, 'auc_vindr': 0.8816}
+4189.1s 207 arch  arm  seed  auc_val  auc_test  auc_rsna  auc_nih  auc_vindr  best_epoch  epochs_run  lr
+4189.1s 208 convnext_tiny lung  1337   0.9977    0.9720    0.9541   0.7387     0.8559          11          16 0.0
+4189.1s 209 convnext_tiny lung  2024   0.9978    0.9562    0.9399   0.7209     0.8816          17          20 0.0
+4189.1s 210 convnext_tiny lung    42   0.9981    0.9876    0.9462   0.7290     0.8234          12          17 0.0
+4189.1s 211 convnext_tiny  raw  1337   0.9985    0.9769    0.9370   0.7072     0.8220           7          12 0.0
+4189.1s 212 convnext_tiny  raw  2024   0.9982    0.9745    0.9245   0.6911     0.8131          12          17 0.0
+4189.1s 213 convnext_tiny  raw    42   0.9990    0.9559    0.9366   0.7084     0.8017           7          12 0.0
+4189.1s 214 convnext_tiny  roi  1337   0.9972    0.9886    0.9514   0.7310     0.8623          14          19 0.0
+4189.1s 215 convnext_tiny  roi  2024   0.9975    0.9823    0.9467   0.7333     0.8935          15          20 0.0
+4189.1s 216 convnext_tiny  roi    42   0.9969    0.9847    0.9525   0.7356     0.8651           5          10 0.0
+4189.1s 217 missing runs: none, factorial complete for convnext_tiny
+4189.2s 218 elapsed 1.16 h
+4195.0s 219 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+4195.0s 220 cells[i][c] = re.sub('\\\\\|', '|', cell)
+4195.2s 221 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+4195.2s 222 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+4195.9s 223 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+4196.0s 224 [NbConvertApp] Writing 64465 bytes to __notebook__.ipynb
+4198.4s 225 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+4199.0s 226 [NbConvertApp] Writing 402036 bytes to __results__.html

@@ -1,0 +1,50 @@
+9.1s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.1s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.1s 3 0.00s - to python to disable frozen modules.
+9.1s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.0s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.0s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.0s 7 0.00s - to python to disable frozen modules.
+10.0s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+36.7s 9 Kermany root: /kaggle/input/datasets/paultimothymooney/chest-xray-pneumonia/chest_xray
+36.7s 10 label           NORMAL  PNEUMONIA
+36.7s 11 official_split
+36.7s 12 test               234        390
+36.7s 13 train             1341       3875
+36.7s 14 val                  8          8
+36.7s 15 unparsed keys: 0 | files with _aug_ suffix: 0
+36.7s 16 patient keys present in BOTH official train and official test: 0 (expected ≈ 0 with pathogen-specific keys)
+150.9s 17 exact-duplicate files: 62
+153.3s 18 pairs     n  hamming_median  width_diff_median  p_vs_random
+153.3s 19 same person + pathogen  4557            60.0             0.0769          0.0
+153.3s 20 same number, other pathogen  2686            66.0             0.2174          0.4
+153.3s 21 random pneumonia pairs 20000            66.0             0.1939          1.0
+159.4s 22 near-duplicate pairs (Hamming <= 4): 34 | cross-class 0 | cross-pool 0
+164.0s 23 groups: 4096 | label-conflict groups dropped: 0 images: 0
+164.3s 24 official-test images purged: 0 of 624 (0.0%)
+165.9s 25 label     NORMAL  PNEUMONIA
+165.9s 26 split_v2
+165.9s 27 test         231        387
+165.9s 28 train       1141       3272
+165.9s 29 val          207        586
+165.9s 30 dropped: {'duplicate_within_split': 32}
+165.9s 31 patient-key overlap: {'train-val': 0, 'train-test': 0, 'val-test': 0}
+165.9s 32 MD5 overlap: {'train-val': 0, 'train-test': 0, 'val-test': 0}
+165.9s 33 group overlap: {'train-val': 0, 'train-test': 0, 'val-test': 0}
+165.9s 34 near-duplicate pairs across splits: 0
+165.9s 35 ALL INTEGRITY CHECKS PASSED
+166.4s 36 
+166.4s 37 ============================================================
+166.4s 38 SPLIT v2 FINGERPRINTS (paste into V12–V14):
+166.4s 39 train c443e812516ecf30   {'PNEUMONIA': 3272, 'NORMAL': 1141}
+166.4s 40 val   db515415832232a1   {'PNEUMONIA': 586, 'NORMAL': 207}
+166.4s 41 test  e852070e975c6646   {'PNEUMONIA': 387, 'NORMAL': 231}
+166.4s 42 ============================================================
+170.4s 43 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+170.4s 44 cells[i][c] = re.sub('\\\\\|', '|', cell)
+170.6s 45 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+170.6s 46 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+171.6s 47 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+171.7s 48 [NbConvertApp] Writing 32879 bytes to __notebook__.ipynb
+175.2s 49 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+176.0s 50 [NbConvertApp] Writing 387567 bytes to __results__.html

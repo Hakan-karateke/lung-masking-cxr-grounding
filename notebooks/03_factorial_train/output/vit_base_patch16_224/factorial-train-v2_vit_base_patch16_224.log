@@ -1,0 +1,199 @@
+7.0s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.0s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.0s 3 0.00s - to python to disable frozen modules.
+7.0s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.6s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.6s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.6s 7 0.00s - to python to disable frozen modules.
+7.6s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+27.2s 9 ARCH vit_base_patch16_224 | device cuda | torch 2.11.0+cu128 | timm 1.0.29
+56.8s 10 internal {'raw': (5824, 224, 224), 'roi': (5824, 224, 224), 'lung': (5824, 224, 224)}
+66.9s 11 rsna {'raw': (2000, 224, 224), 'roi': (2000, 224, 224), 'lung': (2000, 224, 224)}
+76.2s 12 vindr {'raw': (1838, 224, 224), 'roi': (1838, 224, 224), 'lung': (1838, 224, 224)}
+90.6s 13 nih {'raw': (2783, 224, 224), 'roi': (2783, 224, 224), 'lung': (2783, 224, 224)}
+90.6s 14 split fingerprints (from V12): {'train': 'c443e812516ecf30', 'val': 'db515415832232a1', 'test': 'e852070e975c6646'}
+90.6s 15 {'train': (4413, 3272), 'val': (793, 586), 'test': (618, 387)} | external: ['rsna', 'nih', 'vindr']
+139.4s 16 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 01 loss 0.2653 val AUC 0.9923
+179.8s 17 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 02 loss 0.1199 val AUC 0.9947
+222.1s 18 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 03 loss 0.1016 val AUC 0.9965
+262.9s 19 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 04 loss 0.0500 val AUC 0.9945
+303.8s 20 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 05 loss 0.0420 val AUC 0.9974
+344.6s 21 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 06 loss 0.0532 val AUC 0.9974
+384.8s 22 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 07 loss 0.0312 val AUC 0.9968
+425.0s 23 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 08 loss 0.0222 val AUC 0.9987
+464.8s 24 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 09 loss 0.0069 val AUC 0.9986
+504.7s 25 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 10 loss 0.0187 val AUC 0.9991
+544.6s 26 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 11 loss 0.0125 val AUC 0.9986
+584.2s 27 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 12 loss 0.0069 val AUC 0.9981
+623.7s 28 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 13 loss 0.0035 val AUC 0.9985
+663.1s 29 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 14 loss 0.0020 val AUC 0.9986
+702.7s 30 [vit_base_patch16_224 raw s42 lr1e-05 sweep] ep 15 loss 0.0046 val AUC 0.9982
+704.6s 31 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+704.6s 32 
+704.6s 33 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+746.8s 34 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 01 loss 0.2179 val AUC 0.9923
+788.8s 35 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 02 loss 0.1549 val AUC 0.9974
+830.7s 36 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 03 loss 0.1491 val AUC 0.9981
+871.8s 37 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 04 loss 0.0627 val AUC 0.9973
+912.7s 38 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 05 loss 0.0492 val AUC 0.9986
+954.1s 39 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 06 loss 0.0590 val AUC 0.9986
+995.1s 40 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 07 loss 0.0321 val AUC 0.9992
+1035.4s 41 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 08 loss 0.0318 val AUC 0.9983
+1075.6s 42 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 09 loss 0.0156 val AUC 0.9988
+1115.7s 43 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 10 loss 0.0199 val AUC 0.9988
+1155.8s 44 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 11 loss 0.0135 val AUC 0.9990
+1196.3s 45 [vit_base_patch16_224 raw s42 lr3e-05 sweep] ep 12 loss 0.0194 val AUC 0.9990
+1240.3s 46 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 01 loss 0.2573 val AUC 0.9953
+1282.1s 47 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 02 loss 0.1662 val AUC 0.9970
+1323.7s 48 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 03 loss 0.1853 val AUC 0.9959
+1364.8s 49 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 04 loss 0.0891 val AUC 0.9940
+1406.0s 50 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 05 loss 0.0883 val AUC 0.9980
+1447.0s 51 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 06 loss 0.0831 val AUC 0.9969
+1488.0s 52 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 07 loss 0.0728 val AUC 0.9987
+1528.7s 53 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 08 loss 0.0486 val AUC 0.9982
+1569.3s 54 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 09 loss 0.0447 val AUC 0.9988
+1610.0s 55 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 10 loss 0.0417 val AUC 0.9984
+1650.4s 56 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 11 loss 0.0342 val AUC 0.9977
+1690.6s 57 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 12 loss 0.0247 val AUC 0.9984
+1730.7s 58 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 13 loss 0.0163 val AUC 0.9987
+1770.9s 59 [vit_base_patch16_224 raw s42 lr0.0001 sweep] ep 14 loss 0.0189 val AUC 0.9987
+1771.8s 60 chosen LR: 3e-05
+1795.0s 61 -> {'auc_val': 0.9992, 'auc_test': 0.9811, 'auc_rsna': 0.9204, 'auc_nih': 0.692, 'auc_vindr': 0.7741}
+1795.0s 62 skip raw s42 (already done)
+1838.8s 63 [vit_base_patch16_224 roi s42 lr3e-05] ep 01 loss 0.2543 val AUC 0.9870
+1880.9s 64 [vit_base_patch16_224 roi s42 lr3e-05] ep 02 loss 0.1670 val AUC 0.9930
+1922.6s 65 [vit_base_patch16_224 roi s42 lr3e-05] ep 03 loss 0.1195 val AUC 0.9924
+1964.5s 66 [vit_base_patch16_224 roi s42 lr3e-05] ep 04 loss 0.1074 val AUC 0.9954
+2006.5s 67 [vit_base_patch16_224 roi s42 lr3e-05] ep 05 loss 0.0897 val AUC 0.9961
+2048.4s 68 [vit_base_patch16_224 roi s42 lr3e-05] ep 06 loss 0.1160 val AUC 0.9962
+2090.1s 69 [vit_base_patch16_224 roi s42 lr3e-05] ep 07 loss 0.0644 val AUC 0.9971
+2131.2s 70 [vit_base_patch16_224 roi s42 lr3e-05] ep 08 loss 0.0509 val AUC 0.9947
+2172.1s 71 [vit_base_patch16_224 roi s42 lr3e-05] ep 09 loss 0.0336 val AUC 0.9966
+2212.9s 72 [vit_base_patch16_224 roi s42 lr3e-05] ep 10 loss 0.0359 val AUC 0.9962
+2253.4s 73 [vit_base_patch16_224 roi s42 lr3e-05] ep 11 loss 0.0216 val AUC 0.9950
+2294.0s 74 [vit_base_patch16_224 roi s42 lr3e-05] ep 12 loss 0.0344 val AUC 0.9949
+2317.3s 75 -> {'auc_val': 0.9971, 'auc_test': 0.9894, 'auc_rsna': 0.9387, 'auc_nih': 0.7199, 'auc_vindr': 0.8511}
+2361.0s 76 [vit_base_patch16_224 lung s42 lr3e-05] ep 01 loss 0.2794 val AUC 0.9901
+2402.9s 77 [vit_base_patch16_224 lung s42 lr3e-05] ep 02 loss 0.1730 val AUC 0.9962
+2444.4s 78 [vit_base_patch16_224 lung s42 lr3e-05] ep 03 loss 0.1117 val AUC 0.9949
+2485.7s 79 [vit_base_patch16_224 lung s42 lr3e-05] ep 04 loss 0.0979 val AUC 0.9973
+2526.7s 80 [vit_base_patch16_224 lung s42 lr3e-05] ep 05 loss 0.0720 val AUC 0.9962
+2567.6s 81 [vit_base_patch16_224 lung s42 lr3e-05] ep 06 loss 0.0713 val AUC 0.9941
+2609.0s 82 [vit_base_patch16_224 lung s42 lr3e-05] ep 07 loss 0.0677 val AUC 0.9976
+2649.7s 83 [vit_base_patch16_224 lung s42 lr3e-05] ep 08 loss 0.0390 val AUC 0.9974
+2690.1s 84 [vit_base_patch16_224 lung s42 lr3e-05] ep 09 loss 0.0287 val AUC 0.9975
+2730.5s 85 [vit_base_patch16_224 lung s42 lr3e-05] ep 10 loss 0.0413 val AUC 0.9971
+2771.0s 86 [vit_base_patch16_224 lung s42 lr3e-05] ep 11 loss 0.0232 val AUC 0.9972
+2811.8s 87 [vit_base_patch16_224 lung s42 lr3e-05] ep 12 loss 0.0244 val AUC 0.9967
+2835.1s 88 -> {'auc_val': 0.9976, 'auc_test': 0.988, 'auc_rsna': 0.9564, 'auc_nih': 0.7532, 'auc_vindr': 0.855}
+2878.8s 89 [vit_base_patch16_224 raw s1337 lr3e-05] ep 01 loss 0.2145 val AUC 0.9898
+2920.1s 90 [vit_base_patch16_224 raw s1337 lr3e-05] ep 02 loss 0.1468 val AUC 0.9960
+2961.4s 91 [vit_base_patch16_224 raw s1337 lr3e-05] ep 03 loss 0.0893 val AUC 0.9977
+3002.4s 92 [vit_base_patch16_224 raw s1337 lr3e-05] ep 04 loss 0.0741 val AUC 0.9990
+3043.1s 93 [vit_base_patch16_224 raw s1337 lr3e-05] ep 05 loss 0.0580 val AUC 0.9985
+3083.8s 94 [vit_base_patch16_224 raw s1337 lr3e-05] ep 06 loss 0.0623 val AUC 0.9989
+3124.5s 95 [vit_base_patch16_224 raw s1337 lr3e-05] ep 07 loss 0.0412 val AUC 0.9991
+3164.9s 96 [vit_base_patch16_224 raw s1337 lr3e-05] ep 08 loss 0.0312 val AUC 0.9991
+3205.1s 97 [vit_base_patch16_224 raw s1337 lr3e-05] ep 09 loss 0.0335 val AUC 0.9983
+3245.3s 98 [vit_base_patch16_224 raw s1337 lr3e-05] ep 10 loss 0.0181 val AUC 0.9985
+3285.3s 99 [vit_base_patch16_224 raw s1337 lr3e-05] ep 11 loss 0.0115 val AUC 0.9983
+3325.3s 100 [vit_base_patch16_224 raw s1337 lr3e-05] ep 12 loss 0.0150 val AUC 0.9984
+3365.3s 101 [vit_base_patch16_224 raw s1337 lr3e-05] ep 13 loss 0.0110 val AUC 0.9985
+3388.6s 102 -> {'auc_val': 0.9991, 'auc_test': 0.968, 'auc_rsna': 0.8923, 'auc_nih': 0.6644, 'auc_vindr': 0.7814}
+3432.5s 103 [vit_base_patch16_224 roi s1337 lr3e-05] ep 01 loss 0.2932 val AUC 0.9878
+3474.4s 104 [vit_base_patch16_224 roi s1337 lr3e-05] ep 02 loss 0.1755 val AUC 0.9925
+3516.3s 105 [vit_base_patch16_224 roi s1337 lr3e-05] ep 03 loss 0.1518 val AUC 0.9933
+3557.9s 106 [vit_base_patch16_224 roi s1337 lr3e-05] ep 04 loss 0.1053 val AUC 0.9921
+3599.6s 107 [vit_base_patch16_224 roi s1337 lr3e-05] ep 05 loss 0.0745 val AUC 0.9962
+3641.2s 108 [vit_base_patch16_224 roi s1337 lr3e-05] ep 06 loss 0.0862 val AUC 0.9970
+3682.2s 109 [vit_base_patch16_224 roi s1337 lr3e-05] ep 07 loss 0.0540 val AUC 0.9969
+3723.4s 110 [vit_base_patch16_224 roi s1337 lr3e-05] ep 08 loss 0.0380 val AUC 0.9970
+3764.7s 111 [vit_base_patch16_224 roi s1337 lr3e-05] ep 09 loss 0.0467 val AUC 0.9952
+3805.8s 112 [vit_base_patch16_224 roi s1337 lr3e-05] ep 10 loss 0.0312 val AUC 0.9962
+3846.4s 113 [vit_base_patch16_224 roi s1337 lr3e-05] ep 11 loss 0.0240 val AUC 0.9960
+3887.6s 114 [vit_base_patch16_224 roi s1337 lr3e-05] ep 12 loss 0.0354 val AUC 0.9974
+3928.1s 115 [vit_base_patch16_224 roi s1337 lr3e-05] ep 13 loss 0.0249 val AUC 0.9959
+3968.8s 116 [vit_base_patch16_224 roi s1337 lr3e-05] ep 14 loss 0.0176 val AUC 0.9975
+4009.3s 117 [vit_base_patch16_224 roi s1337 lr3e-05] ep 15 loss 0.0088 val AUC 0.9976
+4049.7s 118 [vit_base_patch16_224 roi s1337 lr3e-05] ep 16 loss 0.0205 val AUC 0.9976
+4090.0s 119 [vit_base_patch16_224 roi s1337 lr3e-05] ep 17 loss 0.0142 val AUC 0.9975
+4130.4s 120 [vit_base_patch16_224 roi s1337 lr3e-05] ep 18 loss 0.0058 val AUC 0.9973
+4170.7s 121 [vit_base_patch16_224 roi s1337 lr3e-05] ep 19 loss 0.0044 val AUC 0.9973
+4211.2s 122 [vit_base_patch16_224 roi s1337 lr3e-05] ep 20 loss 0.0068 val AUC 0.9972
+4234.5s 123 -> {'auc_val': 0.9976, 'auc_test': 0.9932, 'auc_rsna': 0.938, 'auc_nih': 0.7204, 'auc_vindr': 0.8404}
+4278.1s 124 [vit_base_patch16_224 lung s1337 lr3e-05] ep 01 loss 0.2568 val AUC 0.9931
+4319.9s 125 [vit_base_patch16_224 lung s1337 lr3e-05] ep 02 loss 0.1422 val AUC 0.9942
+4361.2s 126 [vit_base_patch16_224 lung s1337 lr3e-05] ep 03 loss 0.1035 val AUC 0.9929
+4402.4s 127 [vit_base_patch16_224 lung s1337 lr3e-05] ep 04 loss 0.0907 val AUC 0.9938
+4443.6s 128 [vit_base_patch16_224 lung s1337 lr3e-05] ep 05 loss 0.0843 val AUC 0.9955
+4484.8s 129 [vit_base_patch16_224 lung s1337 lr3e-05] ep 06 loss 0.0653 val AUC 0.9961
+4525.7s 130 [vit_base_patch16_224 lung s1337 lr3e-05] ep 07 loss 0.0518 val AUC 0.9963
+4566.3s 131 [vit_base_patch16_224 lung s1337 lr3e-05] ep 08 loss 0.0448 val AUC 0.9968
+4607.1s 132 [vit_base_patch16_224 lung s1337 lr3e-05] ep 09 loss 0.0402 val AUC 0.9959
+4647.5s 133 [vit_base_patch16_224 lung s1337 lr3e-05] ep 10 loss 0.0257 val AUC 0.9981
+4687.6s 134 [vit_base_patch16_224 lung s1337 lr3e-05] ep 11 loss 0.0201 val AUC 0.9968
+4727.8s 135 [vit_base_patch16_224 lung s1337 lr3e-05] ep 12 loss 0.0259 val AUC 0.9971
+4767.7s 136 [vit_base_patch16_224 lung s1337 lr3e-05] ep 13 loss 0.0177 val AUC 0.9973
+4807.7s 137 [vit_base_patch16_224 lung s1337 lr3e-05] ep 14 loss 0.0130 val AUC 0.9974
+4847.9s 138 [vit_base_patch16_224 lung s1337 lr3e-05] ep 15 loss 0.0117 val AUC 0.9976
+4871.1s 139 -> {'auc_val': 0.9981, 'auc_test': 0.9852, 'auc_rsna': 0.9538, 'auc_nih': 0.7453, 'auc_vindr': 0.8831}
+4915.0s 140 [vit_base_patch16_224 raw s2024 lr3e-05] ep 01 loss 0.2737 val AUC 0.9932
+4956.6s 141 [vit_base_patch16_224 raw s2024 lr3e-05] ep 02 loss 0.1154 val AUC 0.9951
+4997.9s 142 [vit_base_patch16_224 raw s2024 lr3e-05] ep 03 loss 0.0865 val AUC 0.9966
+5038.8s 143 [vit_base_patch16_224 raw s2024 lr3e-05] ep 04 loss 0.0591 val AUC 0.9967
+5080.1s 144 [vit_base_patch16_224 raw s2024 lr3e-05] ep 05 loss 0.0625 val AUC 0.9983
+5121.1s 145 [vit_base_patch16_224 raw s2024 lr3e-05] ep 06 loss 0.0547 val AUC 0.9969
+5162.0s 146 [vit_base_patch16_224 raw s2024 lr3e-05] ep 07 loss 0.0476 val AUC 0.9980
+5202.9s 147 [vit_base_patch16_224 raw s2024 lr3e-05] ep 08 loss 0.0401 val AUC 0.9979
+5243.2s 148 [vit_base_patch16_224 raw s2024 lr3e-05] ep 09 loss 0.0239 val AUC 0.9982
+5283.6s 149 [vit_base_patch16_224 raw s2024 lr3e-05] ep 10 loss 0.0228 val AUC 0.9982
+5306.9s 150 -> {'auc_val': 0.9983, 'auc_test': 0.9638, 'auc_rsna': 0.9281, 'auc_nih': 0.7099, 'auc_vindr': 0.821}
+5350.7s 151 [vit_base_patch16_224 roi s2024 lr3e-05] ep 01 loss 0.3124 val AUC 0.9903
+5392.5s 152 [vit_base_patch16_224 roi s2024 lr3e-05] ep 02 loss 0.1543 val AUC 0.9876
+5434.2s 153 [vit_base_patch16_224 roi s2024 lr3e-05] ep 03 loss 0.1146 val AUC 0.9951
+5475.4s 154 [vit_base_patch16_224 roi s2024 lr3e-05] ep 04 loss 0.0759 val AUC 0.9926
+5517.2s 155 [vit_base_patch16_224 roi s2024 lr3e-05] ep 05 loss 0.0902 val AUC 0.9960
+5558.7s 156 [vit_base_patch16_224 roi s2024 lr3e-05] ep 06 loss 0.0849 val AUC 0.9951
+5600.1s 157 [vit_base_patch16_224 roi s2024 lr3e-05] ep 07 loss 0.0512 val AUC 0.9945
+5641.6s 158 [vit_base_patch16_224 roi s2024 lr3e-05] ep 08 loss 0.0578 val AUC 0.9975
+5682.7s 159 [vit_base_patch16_224 roi s2024 lr3e-05] ep 09 loss 0.0526 val AUC 0.9967
+5723.5s 160 [vit_base_patch16_224 roi s2024 lr3e-05] ep 10 loss 0.0310 val AUC 0.9969
+5764.1s 161 [vit_base_patch16_224 roi s2024 lr3e-05] ep 11 loss 0.0214 val AUC 0.9976
+5804.5s 162 [vit_base_patch16_224 roi s2024 lr3e-05] ep 12 loss 0.0182 val AUC 0.9966
+5844.7s 163 [vit_base_patch16_224 roi s2024 lr3e-05] ep 13 loss 0.0181 val AUC 0.9969
+5885.0s 164 [vit_base_patch16_224 roi s2024 lr3e-05] ep 14 loss 0.0126 val AUC 0.9970
+5925.0s 165 [vit_base_patch16_224 roi s2024 lr3e-05] ep 15 loss 0.0131 val AUC 0.9963
+5965.2s 166 [vit_base_patch16_224 roi s2024 lr3e-05] ep 16 loss 0.0081 val AUC 0.9969
+5988.4s 167 -> {'auc_val': 0.9976, 'auc_test': 0.9874, 'auc_rsna': 0.9396, 'auc_nih': 0.7233, 'auc_vindr': 0.8447}
+6032.3s 168 [vit_base_patch16_224 lung s2024 lr3e-05] ep 01 loss 0.2584 val AUC 0.9939
+6073.9s 169 [vit_base_patch16_224 lung s2024 lr3e-05] ep 02 loss 0.1399 val AUC 0.9919
+6115.6s 170 [vit_base_patch16_224 lung s2024 lr3e-05] ep 03 loss 0.1160 val AUC 0.9950
+6157.1s 171 [vit_base_patch16_224 lung s2024 lr3e-05] ep 04 loss 0.0860 val AUC 0.9957
+6198.5s 172 [vit_base_patch16_224 lung s2024 lr3e-05] ep 05 loss 0.0782 val AUC 0.9959
+6240.1s 173 [vit_base_patch16_224 lung s2024 lr3e-05] ep 06 loss 0.0850 val AUC 0.9976
+6281.2s 174 [vit_base_patch16_224 lung s2024 lr3e-05] ep 07 loss 0.0718 val AUC 0.9969
+6322.3s 175 [vit_base_patch16_224 lung s2024 lr3e-05] ep 08 loss 0.0457 val AUC 0.9967
+6363.2s 176 [vit_base_patch16_224 lung s2024 lr3e-05] ep 09 loss 0.0543 val AUC 0.9966
+6403.8s 177 [vit_base_patch16_224 lung s2024 lr3e-05] ep 10 loss 0.0305 val AUC 0.9959
+6444.5s 178 [vit_base_patch16_224 lung s2024 lr3e-05] ep 11 loss 0.0275 val AUC 0.9969
+6467.6s 179 -> {'auc_val': 0.9976, 'auc_test': 0.9851, 'auc_rsna': 0.9567, 'auc_nih': 0.743, 'auc_vindr': 0.8371}
+6467.9s 180 arch  arm  seed  auc_val  auc_test  auc_rsna  auc_nih  auc_vindr  best_epoch  epochs_run  lr
+6467.9s 181 vit_base_patch16_224 lung  1337   0.9981    0.9852    0.9538   0.7453     0.8831          10          15 0.0
+6467.9s 182 vit_base_patch16_224 lung  2024   0.9976    0.9851    0.9567   0.7430     0.8371           6          11 0.0
+6467.9s 183 vit_base_patch16_224 lung    42   0.9976    0.9880    0.9564   0.7532     0.8550           7          12 0.0
+6467.9s 184 vit_base_patch16_224  raw  1337   0.9991    0.9680    0.8923   0.6644     0.7814           8          13 0.0
+6467.9s 185 vit_base_patch16_224  raw  2024   0.9983    0.9638    0.9281   0.7099     0.8210           5          10 0.0
+6467.9s 186 vit_base_patch16_224  raw    42   0.9992    0.9811    0.9204   0.6920     0.7741           7          12 0.0
+6467.9s 187 vit_base_patch16_224  roi  1337   0.9976    0.9932    0.9380   0.7204     0.8404          16          20 0.0
+6467.9s 188 vit_base_patch16_224  roi  2024   0.9976    0.9874    0.9396   0.7233     0.8447          11          16 0.0
+6467.9s 189 vit_base_patch16_224  roi    42   0.9971    0.9894    0.9387   0.7199     0.8511           7          12 0.0
+6467.9s 190 missing runs: none, factorial complete for vit_base_patch16_224
+6468.2s 191 elapsed 1.79 h
+6474.5s 192 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+6474.5s 193 cells[i][c] = re.sub('\\\\\|', '|', cell)
+6474.7s 194 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+6474.7s 195 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+6475.5s 196 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+6475.7s 197 [NbConvertApp] Writing 63382 bytes to __notebook__.ipynb
+6478.5s 198 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+6479.2s 199 [NbConvertApp] Writing 401252 bytes to __results__.html

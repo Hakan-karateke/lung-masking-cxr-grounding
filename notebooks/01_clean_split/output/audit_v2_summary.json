@@ -1,0 +1,64 @@
+{
+  "root": "/kaggle/input/datasets/paultimothymooney/chest-xray-pneumonia/chest_xray",
+  "seed": 42,
+  "dhash_threshold": 4,
+  "n_files": 5856,
+  "official_counts": {
+    "test/NORMAL": 234,
+    "test/PNEUMONIA": 390,
+    "train/NORMAL": 1341,
+    "train/PNEUMONIA": 3875,
+    "val/NORMAL": 8,
+    "val/PNEUMONIA": 8
+  },
+  "exact_duplicate_files": 62,
+  "near_duplicate_pairs": 34,
+  "near_duplicate_cross_class": 0,
+  "near_duplicate_cross_pool": 0,
+  "patient_keys": 4097,
+  "keys_in_both_official_pools": 0,
+  "groups": 4096,
+  "label_conflict_groups": 0,
+  "test_purged": 0,
+  "test_official_total": 624,
+  "dropped": {
+    "duplicate_within_split": 32
+  },
+  "split_counts": {
+    "train": {
+      "PNEUMONIA": 3272,
+      "NORMAL": 1141
+    },
+    "val": {
+      "PNEUMONIA": 586,
+      "NORMAL": 207
+    },
+    "test": {
+      "PNEUMONIA": 387,
+      "NORMAL": 231
+    }
+  },
+  "fingerprints": {
+    "train": "c443e812516ecf30",
+    "val": "db515415832232a1",
+    "test": "e852070e975c6646"
+  },
+  "overlaps": {
+    "patient_key": {
+      "train-val": 0,
+      "train-test": 0,
+      "val-test": 0
+    },
+    "md5": {
+      "train-val": 0,
+      "train-test": 0,
+      "val-test": 0
+    },
+    "group": {
+      "train-val": 0,
+      "train-test": 0,
+      "val-test": 0
+    },
+    "near_duplicate_cross": 0
+  }
+}

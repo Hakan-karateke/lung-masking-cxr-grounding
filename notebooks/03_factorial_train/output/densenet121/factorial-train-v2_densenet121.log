@@ -1,0 +1,229 @@
+6.7s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.7s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.7s 3 0.00s - to python to disable frozen modules.
+6.7s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.3s 7 0.00s - to python to disable frozen modules.
+7.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+26.3s 9 ARCH densenet121 | device cuda | torch 2.11.0+cu128 | timm 1.0.29
+34.5s 10 internal {'raw': (5824, 224, 224), 'roi': (5824, 224, 224), 'lung': (5824, 224, 224)}
+37.2s 11 rsna {'raw': (2000, 224, 224), 'roi': (2000, 224, 224), 'lung': (2000, 224, 224)}
+39.6s 12 vindr {'raw': (1838, 224, 224), 'roi': (1838, 224, 224), 'lung': (1838, 224, 224)}
+42.9s 13 nih {'raw': (2783, 224, 224), 'roi': (2783, 224, 224), 'lung': (2783, 224, 224)}
+42.9s 14 split fingerprints (from V12): {'train': 'c443e812516ecf30', 'val': 'db515415832232a1', 'test': 'e852070e975c6646'}
+42.9s 15 {'train': (4413, 3272), 'val': (793, 586), 'test': (618, 387)} | external: ['rsna', 'nih', 'vindr']
+69.7s 16 [densenet121 raw s42 lr1e-05 sweep] ep 01 loss 0.5917 val AUC 0.9497
+91.6s 17 [densenet121 raw s42 lr1e-05 sweep] ep 02 loss 0.3122 val AUC 0.9816
+114.2s 18 [densenet121 raw s42 lr1e-05 sweep] ep 03 loss 0.1867 val AUC 0.9877
+137.5s 19 [densenet121 raw s42 lr1e-05 sweep] ep 04 loss 0.1356 val AUC 0.9910
+161.8s 20 [densenet121 raw s42 lr1e-05 sweep] ep 05 loss 0.1182 val AUC 0.9927
+185.9s 21 [densenet121 raw s42 lr1e-05 sweep] ep 06 loss 0.0977 val AUC 0.9938
+209.4s 22 [densenet121 raw s42 lr1e-05 sweep] ep 07 loss 0.0929 val AUC 0.9949
+233.4s 23 [densenet121 raw s42 lr1e-05 sweep] ep 08 loss 0.0852 val AUC 0.9954
+257.3s 24 [densenet121 raw s42 lr1e-05 sweep] ep 09 loss 0.0632 val AUC 0.9958
+281.0s 25 [densenet121 raw s42 lr1e-05 sweep] ep 10 loss 0.0689 val AUC 0.9960
+304.9s 26 [densenet121 raw s42 lr1e-05 sweep] ep 11 loss 0.0656 val AUC 0.9963
+328.9s 27 [densenet121 raw s42 lr1e-05 sweep] ep 12 loss 0.0612 val AUC 0.9964
+352.7s 28 [densenet121 raw s42 lr1e-05 sweep] ep 13 loss 0.0600 val AUC 0.9965
+376.7s 29 [densenet121 raw s42 lr1e-05 sweep] ep 14 loss 0.0627 val AUC 0.9965
+400.6s 30 [densenet121 raw s42 lr1e-05 sweep] ep 15 loss 0.0645 val AUC 0.9968
+424.5s 31 [densenet121 raw s42 lr1e-05 sweep] ep 16 loss 0.0661 val AUC 0.9968
+448.3s 32 [densenet121 raw s42 lr1e-05 sweep] ep 17 loss 0.0525 val AUC 0.9967
+472.2s 33 [densenet121 raw s42 lr1e-05 sweep] ep 18 loss 0.0576 val AUC 0.9969
+496.1s 34 [densenet121 raw s42 lr1e-05 sweep] ep 19 loss 0.0633 val AUC 0.9967
+520.3s 35 [densenet121 raw s42 lr1e-05 sweep] ep 20 loss 0.0559 val AUC 0.9967
+544.5s 36 [densenet121 raw s42 lr3e-05 sweep] ep 01 loss 0.4812 val AUC 0.9802
+568.4s 37 [densenet121 raw s42 lr3e-05 sweep] ep 02 loss 0.1545 val AUC 0.9927
+592.4s 38 [densenet121 raw s42 lr3e-05 sweep] ep 03 loss 0.1006 val AUC 0.9943
+616.4s 39 [densenet121 raw s42 lr3e-05 sweep] ep 04 loss 0.0674 val AUC 0.9956
+640.4s 40 [densenet121 raw s42 lr3e-05 sweep] ep 05 loss 0.0585 val AUC 0.9960
+664.3s 41 [densenet121 raw s42 lr3e-05 sweep] ep 06 loss 0.0513 val AUC 0.9969
+688.2s 42 [densenet121 raw s42 lr3e-05 sweep] ep 07 loss 0.0422 val AUC 0.9962
+712.0s 43 [densenet121 raw s42 lr3e-05 sweep] ep 08 loss 0.0397 val AUC 0.9962
+735.9s 44 [densenet121 raw s42 lr3e-05 sweep] ep 09 loss 0.0198 val AUC 0.9961
+759.8s 45 [densenet121 raw s42 lr3e-05 sweep] ep 10 loss 0.0302 val AUC 0.9963
+783.9s 46 [densenet121 raw s42 lr3e-05 sweep] ep 11 loss 0.0287 val AUC 0.9967
+784.2s 47 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+784.2s 48 
+784.2s 49 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+808.3s 50 [densenet121 raw s42 lr0.0001 sweep] ep 01 loss 0.3388 val AUC 0.9914
+832.2s 51 [densenet121 raw s42 lr0.0001 sweep] ep 02 loss 0.0886 val AUC 0.9964
+856.1s 52 [densenet121 raw s42 lr0.0001 sweep] ep 03 loss 0.0589 val AUC 0.9972
+880.0s 53 [densenet121 raw s42 lr0.0001 sweep] ep 04 loss 0.0429 val AUC 0.9977
+903.9s 54 [densenet121 raw s42 lr0.0001 sweep] ep 05 loss 0.0352 val AUC 0.9975
+927.7s 55 [densenet121 raw s42 lr0.0001 sweep] ep 06 loss 0.0268 val AUC 0.9972
+951.7s 56 [densenet121 raw s42 lr0.0001 sweep] ep 07 loss 0.0177 val AUC 0.9983
+975.6s 57 [densenet121 raw s42 lr0.0001 sweep] ep 08 loss 0.0156 val AUC 0.9984
+999.5s 58 [densenet121 raw s42 lr0.0001 sweep] ep 09 loss 0.0105 val AUC 0.9984
+1023.4s 59 [densenet121 raw s42 lr0.0001 sweep] ep 10 loss 0.0127 val AUC 0.9989
+1047.3s 60 [densenet121 raw s42 lr0.0001 sweep] ep 11 loss 0.0114 val AUC 0.9987
+1071.0s 61 [densenet121 raw s42 lr0.0001 sweep] ep 12 loss 0.0057 val AUC 0.9988
+1094.9s 62 [densenet121 raw s42 lr0.0001 sweep] ep 13 loss 0.0072 val AUC 0.9989
+1118.6s 63 [densenet121 raw s42 lr0.0001 sweep] ep 14 loss 0.0032 val AUC 0.9989
+1142.5s 64 [densenet121 raw s42 lr0.0001 sweep] ep 15 loss 0.0040 val AUC 0.9991
+1166.2s 65 [densenet121 raw s42 lr0.0001 sweep] ep 16 loss 0.0021 val AUC 0.9992
+1189.8s 66 [densenet121 raw s42 lr0.0001 sweep] ep 17 loss 0.0043 val AUC 0.9991
+1213.5s 67 [densenet121 raw s42 lr0.0001 sweep] ep 18 loss 0.0020 val AUC 0.9990
+1237.4s 68 [densenet121 raw s42 lr0.0001 sweep] ep 19 loss 0.0027 val AUC 0.9991
+1261.3s 69 [densenet121 raw s42 lr0.0001 sweep] ep 20 loss 0.0024 val AUC 0.9991
+1261.4s 70 chosen LR: 0.0001
+1276.2s 71 -> {'auc_val': 0.9992, 'auc_test': 0.9551, 'auc_rsna': 0.9173, 'auc_nih': 0.6797, 'auc_vindr': 0.8065}
+1276.2s 72 skip raw s42 (already done)
+1300.4s 73 [densenet121 roi s42 lr0.0001] ep 01 loss 0.3751 val AUC 0.9845
+1324.4s 74 [densenet121 roi s42 lr0.0001] ep 02 loss 0.1281 val AUC 0.9913
+1348.4s 75 [densenet121 roi s42 lr0.0001] ep 03 loss 0.0859 val AUC 0.9911
+1372.3s 76 [densenet121 roi s42 lr0.0001] ep 04 loss 0.0721 val AUC 0.9948
+1396.1s 77 [densenet121 roi s42 lr0.0001] ep 05 loss 0.0617 val AUC 0.9962
+1420.1s 78 [densenet121 roi s42 lr0.0001] ep 06 loss 0.0424 val AUC 0.9971
+1444.0s 79 [densenet121 roi s42 lr0.0001] ep 07 loss 0.0343 val AUC 0.9977
+1467.8s 80 [densenet121 roi s42 lr0.0001] ep 08 loss 0.0359 val AUC 0.9969
+1491.5s 81 [densenet121 roi s42 lr0.0001] ep 09 loss 0.0197 val AUC 0.9964
+1515.1s 82 [densenet121 roi s42 lr0.0001] ep 10 loss 0.0247 val AUC 0.9960
+1538.8s 83 [densenet121 roi s42 lr0.0001] ep 11 loss 0.0100 val AUC 0.9964
+1562.5s 84 [densenet121 roi s42 lr0.0001] ep 12 loss 0.0101 val AUC 0.9970
+1576.5s 85 -> {'auc_val': 0.9977, 'auc_test': 0.9817, 'auc_rsna': 0.9285, 'auc_nih': 0.7148, 'auc_vindr': 0.7711}
+1600.6s 86 [densenet121 lung s42 lr0.0001] ep 01 loss 0.3780 val AUC 0.9867
+1624.6s 87 [densenet121 lung s42 lr0.0001] ep 02 loss 0.1260 val AUC 0.9918
+1648.5s 88 [densenet121 lung s42 lr0.0001] ep 03 loss 0.0929 val AUC 0.9937
+1672.3s 89 [densenet121 lung s42 lr0.0001] ep 04 loss 0.0760 val AUC 0.9969
+1696.2s 90 [densenet121 lung s42 lr0.0001] ep 05 loss 0.0596 val AUC 0.9969
+1719.9s 91 [densenet121 lung s42 lr0.0001] ep 06 loss 0.0588 val AUC 0.9959
+1743.8s 92 [densenet121 lung s42 lr0.0001] ep 07 loss 0.0352 val AUC 0.9972
+1767.5s 93 [densenet121 lung s42 lr0.0001] ep 08 loss 0.0351 val AUC 0.9957
+1791.3s 94 [densenet121 lung s42 lr0.0001] ep 09 loss 0.0256 val AUC 0.9951
+1815.0s 95 [densenet121 lung s42 lr0.0001] ep 10 loss 0.0272 val AUC 0.9959
+1838.7s 96 [densenet121 lung s42 lr0.0001] ep 11 loss 0.0170 val AUC 0.9949
+1862.4s 97 [densenet121 lung s42 lr0.0001] ep 12 loss 0.0142 val AUC 0.9966
+1876.3s 98 -> {'auc_val': 0.9972, 'auc_test': 0.9865, 'auc_rsna': 0.9405, 'auc_nih': 0.73, 'auc_vindr': 0.7566}
+1900.5s 99 [densenet121 raw s1337 lr0.0001] ep 01 loss 0.3478 val AUC 0.9916
+1924.5s 100 [densenet121 raw s1337 lr0.0001] ep 02 loss 0.0811 val AUC 0.9923
+1948.5s 101 [densenet121 raw s1337 lr0.0001] ep 03 loss 0.0593 val AUC 0.9975
+1972.4s 102 [densenet121 raw s1337 lr0.0001] ep 04 loss 0.0537 val AUC 0.9982
+1996.2s 103 [densenet121 raw s1337 lr0.0001] ep 05 loss 0.0392 val AUC 0.9982
+2020.0s 104 [densenet121 raw s1337 lr0.0001] ep 06 loss 0.0358 val AUC 0.9977
+2043.8s 105 [densenet121 raw s1337 lr0.0001] ep 07 loss 0.0226 val AUC 0.9980
+2067.6s 106 [densenet121 raw s1337 lr0.0001] ep 08 loss 0.0135 val AUC 0.9985
+2091.4s 107 [densenet121 raw s1337 lr0.0001] ep 09 loss 0.0163 val AUC 0.9982
+2115.2s 108 [densenet121 raw s1337 lr0.0001] ep 10 loss 0.0066 val AUC 0.9986
+2139.0s 109 [densenet121 raw s1337 lr0.0001] ep 11 loss 0.0064 val AUC 0.9989
+2162.8s 110 [densenet121 raw s1337 lr0.0001] ep 12 loss 0.0038 val AUC 0.9990
+2186.6s 111 [densenet121 raw s1337 lr0.0001] ep 13 loss 0.0050 val AUC 0.9992
+2210.3s 112 [densenet121 raw s1337 lr0.0001] ep 14 loss 0.0033 val AUC 0.9993
+2234.0s 113 [densenet121 raw s1337 lr0.0001] ep 15 loss 0.0013 val AUC 0.9988
+2257.7s 114 [densenet121 raw s1337 lr0.0001] ep 16 loss 0.0017 val AUC 0.9991
+2281.4s 115 [densenet121 raw s1337 lr0.0001] ep 17 loss 0.0017 val AUC 0.9991
+2305.1s 116 [densenet121 raw s1337 lr0.0001] ep 18 loss 0.0012 val AUC 0.9984
+2328.9s 117 [densenet121 raw s1337 lr0.0001] ep 19 loss 0.0011 val AUC 0.9992
+2342.9s 118 -> {'auc_val': 0.9993, 'auc_test': 0.9644, 'auc_rsna': 0.9204, 'auc_nih': 0.6896, 'auc_vindr': 0.8123}
+2367.0s 119 [densenet121 roi s1337 lr0.0001] ep 01 loss 0.3763 val AUC 0.9835
+2391.0s 120 [densenet121 roi s1337 lr0.0001] ep 02 loss 0.1105 val AUC 0.9934
+2414.8s 121 [densenet121 roi s1337 lr0.0001] ep 03 loss 0.0907 val AUC 0.9917
+2438.6s 122 [densenet121 roi s1337 lr0.0001] ep 04 loss 0.0741 val AUC 0.9936
+2462.6s 123 [densenet121 roi s1337 lr0.0001] ep 05 loss 0.0605 val AUC 0.9961
+2486.5s 124 [densenet121 roi s1337 lr0.0001] ep 06 loss 0.0469 val AUC 0.9956
+2510.5s 125 [densenet121 roi s1337 lr0.0001] ep 07 loss 0.0352 val AUC 0.9966
+2534.4s 126 [densenet121 roi s1337 lr0.0001] ep 08 loss 0.0259 val AUC 0.9969
+2558.4s 127 [densenet121 roi s1337 lr0.0001] ep 09 loss 0.0273 val AUC 0.9972
+2582.2s 128 [densenet121 roi s1337 lr0.0001] ep 10 loss 0.0142 val AUC 0.9977
+2606.2s 129 [densenet121 roi s1337 lr0.0001] ep 11 loss 0.0104 val AUC 0.9976
+2629.9s 130 [densenet121 roi s1337 lr0.0001] ep 12 loss 0.0067 val AUC 0.9974
+2653.8s 131 [densenet121 roi s1337 lr0.0001] ep 13 loss 0.0097 val AUC 0.9981
+2677.5s 132 [densenet121 roi s1337 lr0.0001] ep 14 loss 0.0099 val AUC 0.9977
+2701.1s 133 [densenet121 roi s1337 lr0.0001] ep 15 loss 0.0059 val AUC 0.9976
+2724.8s 134 [densenet121 roi s1337 lr0.0001] ep 16 loss 0.0039 val AUC 0.9978
+2748.4s 135 [densenet121 roi s1337 lr0.0001] ep 17 loss 0.0063 val AUC 0.9976
+2772.2s 136 [densenet121 roi s1337 lr0.0001] ep 18 loss 0.0014 val AUC 0.9977
+2786.2s 137 -> {'auc_val': 0.9981, 'auc_test': 0.982, 'auc_rsna': 0.935, 'auc_nih': 0.7211, 'auc_vindr': 0.8264}
+2810.2s 138 [densenet121 lung s1337 lr0.0001] ep 01 loss 0.3657 val AUC 0.9906
+2834.1s 139 [densenet121 lung s1337 lr0.0001] ep 02 loss 0.1014 val AUC 0.9927
+2858.0s 140 [densenet121 lung s1337 lr0.0001] ep 03 loss 0.0971 val AUC 0.9931
+2881.9s 141 [densenet121 lung s1337 lr0.0001] ep 04 loss 0.0810 val AUC 0.9954
+2905.8s 142 [densenet121 lung s1337 lr0.0001] ep 05 loss 0.0625 val AUC 0.9974
+2929.7s 143 [densenet121 lung s1337 lr0.0001] ep 06 loss 0.0595 val AUC 0.9973
+2953.5s 144 [densenet121 lung s1337 lr0.0001] ep 07 loss 0.0408 val AUC 0.9972
+2977.3s 145 [densenet121 lung s1337 lr0.0001] ep 08 loss 0.0292 val AUC 0.9974
+3001.0s 146 [densenet121 lung s1337 lr0.0001] ep 09 loss 0.0343 val AUC 0.9958
+3024.8s 147 [densenet121 lung s1337 lr0.0001] ep 10 loss 0.0259 val AUC 0.9980
+3048.6s 148 [densenet121 lung s1337 lr0.0001] ep 11 loss 0.0164 val AUC 0.9972
+3072.3s 149 [densenet121 lung s1337 lr0.0001] ep 12 loss 0.0201 val AUC 0.9970
+3096.1s 150 [densenet121 lung s1337 lr0.0001] ep 13 loss 0.0098 val AUC 0.9975
+3119.8s 151 [densenet121 lung s1337 lr0.0001] ep 14 loss 0.0108 val AUC 0.9976
+3143.7s 152 [densenet121 lung s1337 lr0.0001] ep 15 loss 0.0053 val AUC 0.9972
+3157.5s 153 -> {'auc_val': 0.998, 'auc_test': 0.9821, 'auc_rsna': 0.9423, 'auc_nih': 0.7297, 'auc_vindr': 0.8285}
+3181.8s 154 [densenet121 raw s2024 lr0.0001] ep 01 loss 0.3492 val AUC 0.9915
+3205.7s 155 [densenet121 raw s2024 lr0.0001] ep 02 loss 0.0791 val AUC 0.9942
+3229.6s 156 [densenet121 raw s2024 lr0.0001] ep 03 loss 0.0623 val AUC 0.9971
+3253.5s 157 [densenet121 raw s2024 lr0.0001] ep 04 loss 0.0417 val AUC 0.9968
+3277.5s 158 [densenet121 raw s2024 lr0.0001] ep 05 loss 0.0328 val AUC 0.9976
+3301.4s 159 [densenet121 raw s2024 lr0.0001] ep 06 loss 0.0345 val AUC 0.9986
+3325.2s 160 [densenet121 raw s2024 lr0.0001] ep 07 loss 0.0227 val AUC 0.9980
+3349.1s 161 [densenet121 raw s2024 lr0.0001] ep 08 loss 0.0159 val AUC 0.9988
+3372.9s 162 [densenet121 raw s2024 lr0.0001] ep 09 loss 0.0141 val AUC 0.9988
+3396.7s 163 [densenet121 raw s2024 lr0.0001] ep 10 loss 0.0073 val AUC 0.9982
+3420.4s 164 [densenet121 raw s2024 lr0.0001] ep 11 loss 0.0066 val AUC 0.9982
+3444.1s 165 [densenet121 raw s2024 lr0.0001] ep 12 loss 0.0081 val AUC 0.9984
+3467.9s 166 [densenet121 raw s2024 lr0.0001] ep 13 loss 0.0055 val AUC 0.9988
+3491.6s 167 [densenet121 raw s2024 lr0.0001] ep 14 loss 0.0059 val AUC 0.9987
+3515.3s 168 [densenet121 raw s2024 lr0.0001] ep 15 loss 0.0043 val AUC 0.9986
+3539.0s 169 [densenet121 raw s2024 lr0.0001] ep 16 loss 0.0008 val AUC 0.9986
+3562.8s 170 [densenet121 raw s2024 lr0.0001] ep 17 loss 0.0025 val AUC 0.9988
+3586.5s 171 [densenet121 raw s2024 lr0.0001] ep 18 loss 0.0046 val AUC 0.9986
+3610.1s 172 [densenet121 raw s2024 lr0.0001] ep 19 loss 0.0006 val AUC 0.9986
+3633.8s 173 [densenet121 raw s2024 lr0.0001] ep 20 loss 0.0013 val AUC 0.9985
+3647.7s 174 -> {'auc_val': 0.9988, 'auc_test': 0.9646, 'auc_rsna': 0.9296, 'auc_nih': 0.6967, 'auc_vindr': 0.7898}
+3671.8s 175 [densenet121 roi s2024 lr0.0001] ep 01 loss 0.3729 val AUC 0.9826
+3695.8s 176 [densenet121 roi s2024 lr0.0001] ep 02 loss 0.1244 val AUC 0.9918
+3719.8s 177 [densenet121 roi s2024 lr0.0001] ep 03 loss 0.0878 val AUC 0.9946
+3743.6s 178 [densenet121 roi s2024 lr0.0001] ep 04 loss 0.0634 val AUC 0.9915
+3767.5s 179 [densenet121 roi s2024 lr0.0001] ep 05 loss 0.0563 val AUC 0.9956
+3791.2s 180 [densenet121 roi s2024 lr0.0001] ep 06 loss 0.0480 val AUC 0.9954
+3815.0s 181 [densenet121 roi s2024 lr0.0001] ep 07 loss 0.0365 val AUC 0.9954
+3838.9s 182 [densenet121 roi s2024 lr0.0001] ep 08 loss 0.0299 val AUC 0.9971
+3862.7s 183 [densenet121 roi s2024 lr0.0001] ep 09 loss 0.0245 val AUC 0.9966
+3886.5s 184 [densenet121 roi s2024 lr0.0001] ep 10 loss 0.0154 val AUC 0.9962
+3910.4s 185 [densenet121 roi s2024 lr0.0001] ep 11 loss 0.0144 val AUC 0.9960
+3934.2s 186 [densenet121 roi s2024 lr0.0001] ep 12 loss 0.0108 val AUC 0.9959
+3957.9s 187 [densenet121 roi s2024 lr0.0001] ep 13 loss 0.0129 val AUC 0.9965
+3971.8s 188 -> {'auc_val': 0.9971, 'auc_test': 0.993, 'auc_rsna': 0.923, 'auc_nih': 0.7102, 'auc_vindr': 0.8218}
+3995.9s 189 [densenet121 lung s2024 lr0.0001] ep 01 loss 0.3639 val AUC 0.9887
+4019.8s 190 [densenet121 lung s2024 lr0.0001] ep 02 loss 0.1245 val AUC 0.9920
+4043.6s 191 [densenet121 lung s2024 lr0.0001] ep 03 loss 0.0809 val AUC 0.9946
+4067.3s 192 [densenet121 lung s2024 lr0.0001] ep 04 loss 0.0787 val AUC 0.9908
+4091.1s 193 [densenet121 lung s2024 lr0.0001] ep 05 loss 0.0655 val AUC 0.9947
+4114.9s 194 [densenet121 lung s2024 lr0.0001] ep 06 loss 0.0506 val AUC 0.9961
+4138.5s 195 [densenet121 lung s2024 lr0.0001] ep 07 loss 0.0372 val AUC 0.9951
+4162.3s 196 [densenet121 lung s2024 lr0.0001] ep 08 loss 0.0402 val AUC 0.9964
+4186.1s 197 [densenet121 lung s2024 lr0.0001] ep 09 loss 0.0381 val AUC 0.9965
+4209.9s 198 [densenet121 lung s2024 lr0.0001] ep 10 loss 0.0253 val AUC 0.9949
+4233.7s 199 [densenet121 lung s2024 lr0.0001] ep 11 loss 0.0171 val AUC 0.9965
+4257.5s 200 [densenet121 lung s2024 lr0.0001] ep 12 loss 0.0188 val AUC 0.9970
+4281.2s 201 [densenet121 lung s2024 lr0.0001] ep 13 loss 0.0161 val AUC 0.9971
+4305.0s 202 [densenet121 lung s2024 lr0.0001] ep 14 loss 0.0106 val AUC 0.9973
+4328.7s 203 [densenet121 lung s2024 lr0.0001] ep 15 loss 0.0074 val AUC 0.9974
+4352.4s 204 [densenet121 lung s2024 lr0.0001] ep 16 loss 0.0056 val AUC 0.9969
+4376.1s 205 [densenet121 lung s2024 lr0.0001] ep 17 loss 0.0075 val AUC 0.9967
+4399.8s 206 [densenet121 lung s2024 lr0.0001] ep 18 loss 0.0054 val AUC 0.9967
+4423.5s 207 [densenet121 lung s2024 lr0.0001] ep 19 loss 0.0041 val AUC 0.9967
+4447.2s 208 [densenet121 lung s2024 lr0.0001] ep 20 loss 0.0030 val AUC 0.9967
+4461.0s 209 -> {'auc_val': 0.9974, 'auc_test': 0.9844, 'auc_rsna': 0.9237, 'auc_nih': 0.7198, 'auc_vindr': 0.8237}
+4461.3s 210 arch  arm  seed  auc_val  auc_test  auc_rsna  auc_nih  auc_vindr  best_epoch  epochs_run     lr
+4461.3s 211 densenet121 lung  1337   0.9980    0.9821    0.9423   0.7297     0.8285          10          15 0.0001
+4461.3s 212 densenet121 lung  2024   0.9974    0.9844    0.9237   0.7198     0.8237          15          20 0.0001
+4461.3s 213 densenet121 lung    42   0.9972    0.9865    0.9405   0.7300     0.7566           7          12 0.0001
+4461.3s 214 densenet121  raw  1337   0.9993    0.9644    0.9204   0.6896     0.8123          14          19 0.0001
+4461.3s 215 densenet121  raw  2024   0.9988    0.9646    0.9296   0.6967     0.7898          17          20 0.0001
+4461.3s 216 densenet121  raw    42   0.9992    0.9551    0.9173   0.6797     0.8065          16          20 0.0001
+4461.3s 217 densenet121  roi  1337   0.9981    0.9820    0.9350   0.7211     0.8264          13          18 0.0001
+4461.3s 218 densenet121  roi  2024   0.9971    0.9930    0.9230   0.7102     0.8218           8          13 0.0001
+4461.3s 219 densenet121  roi    42   0.9977    0.9817    0.9285   0.7148     0.7711           7          12 0.0001
+4461.3s 220 missing runs: none, factorial complete for densenet121
+4461.5s 221 elapsed 1.23 h
+4466.7s 222 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+4466.7s 223 cells[i][c] = re.sub('\\\\\|', '|', cell)
+4466.9s 224 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+4466.9s 225 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+4467.6s 226 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+4467.7s 227 [NbConvertApp] Writing 64523 bytes to __notebook__.ipynb
+4470.1s 228 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+4470.6s 229 [NbConvertApp] Writing 402253 bytes to __results__.html

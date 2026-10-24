@@ -1,0 +1,4 @@
+pairs,n,hamming_median,width_diff_median,p_vs_random
+same person + pathogen,4557,60.0,0.07692307692307693,1.9040830816530886e-81
+"same number, other pathogen",2686,66.0,0.21739130434782608,0.4000372639444215
+random pneumonia pairs,20000,66.0,0.19393939393939394,1.0

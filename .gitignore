@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pth
+cache_*.npz
+data/
+.DS_Store
+_test_tables/

@@ -1,0 +1,191 @@
+7.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.9s 3 0.00s - to python to disable frozen modules.
+7.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s 7 0.00s - to python to disable frozen modules.
+8.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+54.0s 9 {'internal': (300, 150), 'rsna': (300, 200), 'nih': (300, 150), 'vindr': (300, 200)}
+55.6s 10 36 checkpoints found
+99.1s 11 P0 vit_base_patch16_224 raw s42: AUC(logit) val=0.9992 test=0.9810 rsna=0.9204 nih=0.6920 vindr=0.7741  (1.1 min)
+141.0s 12 P0 vit_base_patch16_224 raw s1337: AUC(logit) val=0.9991 test=0.9673 rsna=0.8924 nih=0.6645 vindr=0.7813  (1.8 min)
+184.9s 13 P0 vit_base_patch16_224 raw s2024: AUC(logit) val=0.9983 test=0.9651 rsna=0.9280 nih=0.7099 vindr=0.8210  (2.6 min)
+227.4s 14 P0 vit_base_patch16_224 roi s42: AUC(logit) val=0.9971 test=0.9894 rsna=0.9387 nih=0.7199 vindr=0.8511  (3.3 min)
+271.1s 15 P0 vit_base_patch16_224 roi s1337: AUC(logit) val=0.9976 test=0.9933 rsna=0.9381 nih=0.7206 vindr=0.8404  (4.0 min)
+314.3s 16 P0 vit_base_patch16_224 roi s2024: AUC(logit) val=0.9976 test=0.9873 rsna=0.9401 nih=0.7239 vindr=0.8446  (4.7 min)
+357.7s 17 P0 vit_base_patch16_224 lung s42: AUC(logit) val=0.9976 test=0.9880 rsna=0.9564 nih=0.7532 vindr=0.8550  (5.4 min)
+400.7s 18 P0 vit_base_patch16_224 lung s1337: AUC(logit) val=0.9981 test=0.9854 rsna=0.9540 nih=0.7474 vindr=0.8833  (6.2 min)
+443.9s 19 P0 vit_base_patch16_224 lung s2024: AUC(logit) val=0.9976 test=0.9851 rsna=0.9567 nih=0.7430 vindr=0.8371  (6.9 min)
+468.3s 20 P0 densenet121 raw s42: AUC(logit) val=0.9992 test=0.9551 rsna=0.9170 nih=0.6795 vindr=0.8065  (7.3 min)
+491.4s 21 P0 densenet121 raw s1337: AUC(logit) val=0.9993 test=0.9644 rsna=0.9205 nih=0.6896 vindr=0.8123  (7.7 min)
+514.8s 22 P0 densenet121 raw s2024: AUC(logit) val=0.9988 test=0.9647 rsna=0.9296 nih=0.6967 vindr=0.7898  (8.1 min)
+537.1s 23 P0 densenet121 roi s42: AUC(logit) val=0.9977 test=0.9817 rsna=0.9285 nih=0.7148 vindr=0.7711  (8.4 min)
+560.3s 24 P0 densenet121 roi s1337: AUC(logit) val=0.9981 test=0.9820 rsna=0.9349 nih=0.7211 vindr=0.8264  (8.8 min)
+584.0s 25 P0 densenet121 roi s2024: AUC(logit) val=0.9971 test=0.9930 rsna=0.9231 nih=0.7100 vindr=0.8218  (9.2 min)
+607.9s 26 P0 densenet121 lung s42: AUC(logit) val=0.9972 test=0.9865 rsna=0.9405 nih=0.7300 vindr=0.7567  (9.6 min)
+631.2s 27 P0 densenet121 lung s1337: AUC(logit) val=0.9980 test=0.9821 rsna=0.9423 nih=0.7297 vindr=0.8285  (10.0 min)
+654.3s 28 P0 densenet121 lung s2024: AUC(logit) val=0.9974 test=0.9844 rsna=0.9237 nih=0.7199 vindr=0.8237  (10.4 min)
+713.1s 29 P0 convnext_tiny raw s42: AUC(logit) val=0.9990 test=0.9741 rsna=0.9392 nih=0.7132 vindr=0.8019  (11.4 min)
+741.1s 30 P0 convnext_tiny raw s1337: AUC(logit) val=0.9985 test=0.9769 rsna=0.9370 nih=0.7072 vindr=0.8220  (11.8 min)
+769.1s 31 P0 convnext_tiny raw s2024: AUC(logit) val=0.9982 test=0.9744 rsna=0.9245 nih=0.6917 vindr=0.8131  (12.3 min)
+796.7s 32 P0 convnext_tiny roi s42: AUC(logit) val=0.9969 test=0.9847 rsna=0.9525 nih=0.7356 vindr=0.8651  (12.8 min)
+824.6s 33 P0 convnext_tiny roi s1337: AUC(logit) val=0.9972 test=0.9887 rsna=0.9516 nih=0.7314 vindr=0.8623  (13.2 min)
+852.8s 34 P0 convnext_tiny roi s2024: AUC(logit) val=0.9975 test=0.9839 rsna=0.9464 nih=0.7339 vindr=0.8935  (13.7 min)
+879.6s 35 P0 convnext_tiny lung s42: AUC(logit) val=0.9981 test=0.9894 rsna=0.9461 nih=0.7296 vindr=0.8234  (14.1 min)
+908.1s 36 P0 convnext_tiny lung s1337: AUC(logit) val=0.9977 test=0.9850 rsna=0.9608 nih=0.7468 vindr=0.8582  (14.6 min)
+935.0s 37 P0 convnext_tiny lung s2024: AUC(logit) val=0.9977 test=0.9891 rsna=0.9581 nih=0.7401 vindr=0.8850  (15.1 min)
+967.9s 38 P0 swin_tiny_patch4_window7_224 raw s42: AUC(logit) val=0.9995 test=0.9583 rsna=0.9187 nih=0.6892 vindr=0.7881  (15.6 min)
+1000.6s 39 P0 swin_tiny_patch4_window7_224 raw s1337: AUC(logit) val=0.9992 test=0.9761 rsna=0.9287 nih=0.6986 vindr=0.8205  (16.2 min)
+1033.2s 40 P0 swin_tiny_patch4_window7_224 raw s2024: AUC(logit) val=0.9986 test=0.9695 rsna=0.9185 nih=0.6947 vindr=0.8214  (16.7 min)
+1064.8s 41 P0 swin_tiny_patch4_window7_224 roi s42: AUC(logit) val=0.9972 test=0.9845 rsna=0.9508 nih=0.7393 vindr=0.8495  (17.2 min)
+1097.5s 42 P0 swin_tiny_patch4_window7_224 roi s1337: AUC(logit) val=0.9977 test=0.9833 rsna=0.9365 nih=0.7224 vindr=0.8554  (17.8 min)
+1130.3s 43 P0 swin_tiny_patch4_window7_224 roi s2024: AUC(logit) val=0.9971 test=0.9901 rsna=0.9446 nih=0.7329 vindr=0.8741  (18.3 min)
+1161.4s 44 P0 swin_tiny_patch4_window7_224 lung s42: AUC(logit) val=0.9974 test=0.9807 rsna=0.9422 nih=0.7250 vindr=0.8060  (18.8 min)
+1193.2s 45 P0 swin_tiny_patch4_window7_224 lung s1337: AUC(logit) val=0.9969 test=0.9674 rsna=0.9547 nih=0.7417 vindr=0.8216  (19.4 min)
+1223.8s 46 P0 swin_tiny_patch4_window7_224 lung s2024: AUC(logit) val=0.9977 test=0.9720 rsna=0.9554 nih=0.7434 vindr=0.8314  (19.9 min)
+3728.7s 47 A14b vit_base_patch16_224 raw: 4800 rows, empty maps 0/1200  (61.6 min)
+6231.7s 48 A14b vit_base_patch16_224 roi: 4800 rows, empty maps 0/1200  (103.3 min)
+8731.1s 49 A14b vit_base_patch16_224 lung: 4800 rows, empty maps 0/1200  (145.0 min)
+9449.9s 50 A14b densenet121 raw: 4800 rows, empty maps 0/1200  (157.0 min)
+10169.0s 51 A14b densenet121 roi: 4800 rows, empty maps 0/1200  (169.0 min)
+10885.9s 52 A14b densenet121 lung: 4800 rows, empty maps 0/1200  (180.9 min)
+11834.4s 53 A14b convnext_tiny raw: 4800 rows, empty maps 0/1200  (196.7 min)
+12779.0s 54 A14b convnext_tiny roi: 4800 rows, empty maps 0/1200  (212.5 min)
+13722.7s 55 A14b convnext_tiny lung: 4800 rows, empty maps 0/1200  (228.2 min)
+14762.9s 56 A14b swin_tiny_patch4_window7_224 raw: 4800 rows, empty maps 0/1200  (245.5 min)
+15803.4s 57 A14b swin_tiny_patch4_window7_224 roi: 4800 rows, empty maps 0/1200  (262.9 min)
+16842.8s 58 A14b swin_tiny_patch4_window7_224 lung: 4800 rows, empty maps 0/1200  (280.2 min)
+16869.4s 59 occ vit_base_patch16_224 raw internal: baseline=0.981 lungs=0.956 non_lungs=0.933 lesion=0.981 lesion_ctrl=0.981
+16945.6s 60 occ vit_base_patch16_224 raw rsna: baseline=0.920 lungs=0.861 non_lungs=0.865 lesion=0.889 lesion_ctrl=0.921
+17046.8s 61 occ vit_base_patch16_224 raw nih: baseline=0.692 lungs=0.658 non_lungs=0.671 lesion=0.692 lesion_ctrl=0.692
+17115.6s 62 occ vit_base_patch16_224 raw vindr: baseline=0.774 lungs=0.677 non_lungs=0.814 lesion=0.706 lesion_ctrl=0.773
+17139.7s 63 occ vit_base_patch16_224 roi internal: baseline=0.989 lungs=0.968 non_lungs=0.955 lesion=0.989 lesion_ctrl=0.989
+17216.8s 64 occ vit_base_patch16_224 roi rsna: baseline=0.939 lungs=0.897 non_lungs=0.890 lesion=0.898 lesion_ctrl=0.937
+17318.1s 65 occ vit_base_patch16_224 roi nih: baseline=0.720 lungs=0.678 non_lungs=0.696 lesion=0.720 lesion_ctrl=0.720
+17387.3s 66 occ vit_base_patch16_224 roi vindr: baseline=0.851 lungs=0.731 non_lungs=0.778 lesion=0.768 lesion_ctrl=0.847
+17411.5s 67 occ vit_base_patch16_224 lung internal: baseline=0.988 lungs=0.743 non_lungs=0.988 lesion=0.988 lesion_ctrl=0.988
+17488.8s 68 occ vit_base_patch16_224 lung rsna: baseline=0.956 lungs=0.635 non_lungs=0.954 lesion=0.895 lesion_ctrl=0.957
+17590.1s 69 occ vit_base_patch16_224 lung nih: baseline=0.753 lungs=0.528 non_lungs=0.753 lesion=0.753 lesion_ctrl=0.753
+17659.4s 70 occ vit_base_patch16_224 lung vindr: baseline=0.855 lungs=0.571 non_lungs=0.856 lesion=0.748 lesion_ctrl=0.849
+17675.7s 71 occ densenet121 raw internal: baseline=0.955 lungs=0.932 non_lungs=0.811 lesion=0.955 lesion_ctrl=0.955
+17732.5s 72 occ densenet121 raw rsna: baseline=0.917 lungs=0.808 non_lungs=0.906 lesion=0.846 lesion_ctrl=0.915
+17803.6s 73 occ densenet121 raw nih: baseline=0.680 lungs=0.596 non_lungs=0.685 lesion=0.680 lesion_ctrl=0.680
+17854.0s 74 occ densenet121 raw vindr: baseline=0.806 lungs=0.613 non_lungs=0.809 lesion=0.695 lesion_ctrl=0.789
+17870.3s 75 occ densenet121 roi internal: baseline=0.982 lungs=0.861 non_lungs=0.858 lesion=0.982 lesion_ctrl=0.982
+17928.1s 76 occ densenet121 roi rsna: baseline=0.929 lungs=0.677 non_lungs=0.886 lesion=0.819 lesion_ctrl=0.923
+17998.7s 77 occ densenet121 roi nih: baseline=0.715 lungs=0.609 non_lungs=0.685 lesion=0.715 lesion_ctrl=0.715
+18048.6s 78 occ densenet121 roi vindr: baseline=0.771 lungs=0.518 non_lungs=0.675 lesion=0.596 lesion_ctrl=0.751
+18064.9s 79 occ densenet121 lung internal: baseline=0.986 lungs=0.496 non_lungs=0.980 lesion=0.986 lesion_ctrl=0.986
+18122.1s 80 occ densenet121 lung rsna: baseline=0.940 lungs=0.594 non_lungs=0.937 lesion=0.832 lesion_ctrl=0.943
+18192.6s 81 occ densenet121 lung nih: baseline=0.730 lungs=0.501 non_lungs=0.720 lesion=0.730 lesion_ctrl=0.730
+18242.9s 82 occ densenet121 lung vindr: baseline=0.757 lungs=0.548 non_lungs=0.760 lesion=0.586 lesion_ctrl=0.743
+18262.8s 83 occ convnext_tiny raw internal: baseline=0.974 lungs=0.925 non_lungs=0.944 lesion=0.974 lesion_ctrl=0.974
+18313.8s 84 occ convnext_tiny raw rsna: baseline=0.939 lungs=0.882 non_lungs=0.910 lesion=0.889 lesion_ctrl=0.938
+18378.4s 85 occ convnext_tiny raw nih: baseline=0.713 lungs=0.666 non_lungs=0.685 lesion=0.713 lesion_ctrl=0.713
+18423.8s 86 occ convnext_tiny raw vindr: baseline=0.802 lungs=0.653 non_lungs=0.880 lesion=0.684 lesion_ctrl=0.798
+18438.7s 87 occ convnext_tiny roi internal: baseline=0.985 lungs=0.938 non_lungs=0.939 lesion=0.985 lesion_ctrl=0.985
+18490.5s 88 occ convnext_tiny roi rsna: baseline=0.953 lungs=0.873 non_lungs=0.922 lesion=0.893 lesion_ctrl=0.952
+18555.1s 89 occ convnext_tiny roi nih: baseline=0.736 lungs=0.684 non_lungs=0.713 lesion=0.736 lesion_ctrl=0.736
+18600.9s 90 occ convnext_tiny roi vindr: baseline=0.865 lungs=0.656 non_lungs=0.840 lesion=0.730 lesion_ctrl=0.854
+18615.9s 91 occ convnext_tiny lung internal: baseline=0.989 lungs=0.309 non_lungs=0.977 lesion=0.989 lesion_ctrl=0.989
+18667.8s 92 occ convnext_tiny lung rsna: baseline=0.946 lungs=0.457 non_lungs=0.922 lesion=0.889 lesion_ctrl=0.947
+18732.5s 93 occ convnext_tiny lung nih: baseline=0.730 lungs=0.464 non_lungs=0.701 lesion=0.730 lesion_ctrl=0.730
+18778.1s 94 occ convnext_tiny lung vindr: baseline=0.823 lungs=0.519 non_lungs=0.832 lesion=0.698 lesion_ctrl=0.819
+18797.9s 95 occ swin_tiny_patch4_window7_224 raw internal: baseline=0.958 lungs=0.930 non_lungs=0.777 lesion=0.958 lesion_ctrl=0.958
+18864.6s 96 occ swin_tiny_patch4_window7_224 raw rsna: baseline=0.919 lungs=0.864 non_lungs=0.683 lesion=0.895 lesion_ctrl=0.914
+18951.4s 97 occ swin_tiny_patch4_window7_224 raw nih: baseline=0.689 lungs=0.655 non_lungs=0.577 lesion=0.689 lesion_ctrl=0.689
+19011.3s 98 occ swin_tiny_patch4_window7_224 raw vindr: baseline=0.788 lungs=0.677 non_lungs=0.763 lesion=0.730 lesion_ctrl=0.787
+19031.2s 99 occ swin_tiny_patch4_window7_224 roi internal: baseline=0.984 lungs=0.951 non_lungs=0.964 lesion=0.984 lesion_ctrl=0.984
+19098.8s 100 occ swin_tiny_patch4_window7_224 roi rsna: baseline=0.951 lungs=0.876 non_lungs=0.925 lesion=0.917 lesion_ctrl=0.948
+19185.6s 101 occ swin_tiny_patch4_window7_224 roi nih: baseline=0.739 lungs=0.668 non_lungs=0.718 lesion=0.739 lesion_ctrl=0.739
+19246.0s 102 occ swin_tiny_patch4_window7_224 roi vindr: baseline=0.850 lungs=0.691 non_lungs=0.815 lesion=0.733 lesion_ctrl=0.833
+19265.9s 103 occ swin_tiny_patch4_window7_224 lung internal: baseline=0.981 lungs=0.448 non_lungs=0.974 lesion=0.981 lesion_ctrl=0.981
+19333.4s 104 occ swin_tiny_patch4_window7_224 lung rsna: baseline=0.942 lungs=0.377 non_lungs=0.921 lesion=0.899 lesion_ctrl=0.941
+19420.2s 105 occ swin_tiny_patch4_window7_224 lung nih: baseline=0.725 lungs=0.429 non_lungs=0.705 lesion=0.725 lesion_ctrl=0.725
+19480.2s 106 occ swin_tiny_patch4_window7_224 lung vindr: baseline=0.806 lungs=0.432 non_lungs=0.819 lesion=0.692 lesion_ctrl=0.797
+19481.5s 107 CHECK empty occlusion maps (lfr NaN) per model — expect ~0:
+19481.5s 108 arm                           lung  raw  roi
+19481.5s 109 arch
+19481.5s 110 convnext_tiny                  0.0  0.0  0.0
+19481.5s 111 densenet121                    0.0  0.0  0.0
+19481.5s 112 swin_tiny_patch4_window7_224   0.0  0.0  0.0
+19481.5s 113 vit_base_patch16_224           0.0  0.0  0.0
+19481.5s 114 n    lfr  lefr_in_lung  point_hit
+19481.5s 115 arch                         arm  cohort
+19481.5s 116 convnext_tiny                lung internal  300  0.817           NaN        NaN
+19481.5s 117 nih       300  0.866           NaN        NaN
+19481.5s 118 rsna      300  0.842         0.357      0.465
+19481.5s 119 vindr     300  0.857         0.256      0.385
+19481.5s 120 raw  internal  300  0.317           NaN        NaN
+19481.5s 121 nih       300  0.406           NaN        NaN
+19481.5s 122 rsna      300  0.399         0.342      0.260
+19481.5s 123 vindr     300  0.395         0.161      0.260
+19481.5s 124 roi  internal  300  0.409           NaN        NaN
+19481.5s 125 nih       300  0.517           NaN        NaN
+19481.5s 126 rsna      300  0.518         0.369      0.250
+19481.5s 127 vindr     300  0.467         0.196      0.300
+19481.5s 128 densenet121                  lung internal  300  0.864           NaN        NaN
+19481.5s 129 nih       300  0.889           NaN        NaN
+19481.5s 130 rsna      300  0.888         0.390      0.615
+19481.5s 131 vindr     300  0.867         0.137      0.305
+19481.5s 132 raw  internal  300  0.390           NaN        NaN
+19481.5s 133 nih       300  0.413           NaN        NaN
+19481.5s 134 rsna      300  0.354         0.236      0.130
+19481.5s 135 vindr     300  0.571         0.156      0.225
+19481.5s 136 roi  internal  300  0.693           NaN        NaN
+19481.5s 137 nih       300  0.716           NaN        NaN
+19481.5s 138 rsna      300  0.692         0.325      0.405
+19481.5s 139 vindr     300  0.755         0.147      0.315
+19481.5s 140 swin_tiny_patch4_window7_224 lung internal  300  0.803           NaN        NaN
+19481.5s 141 nih       300  0.862           NaN        NaN
+19481.5s 142 rsna      300  0.844         0.380      0.505
+19481.5s 143 vindr     300  0.873         0.252      0.385
+19481.5s 144 raw  internal  300  0.280           NaN        NaN
+19481.5s 145 nih       300  0.328           NaN        NaN
+19481.5s 146 rsna      300  0.277         0.345      0.210
+19481.5s 147 vindr     300  0.386         0.152      0.165
+19481.5s 148 roi  internal  300  0.440           NaN        NaN
+19481.5s 149 nih       300  0.570           NaN        NaN
+19481.5s 150 rsna      300  0.548         0.402      0.360
+19481.5s 151 vindr     300  0.529         0.160      0.280
+19481.5s 152 vit_base_patch16_224         lung internal  300  0.813           NaN        NaN
+19481.5s 153 nih       300  0.868           NaN        NaN
+19481.5s 154 rsna      300  0.854         0.586      0.675
+19481.5s 155 vindr     300  0.858         0.332      0.505
+19481.5s 156 raw  internal  300  0.238           NaN        NaN
+19481.5s 157 nih       300  0.277           NaN        NaN
+19481.5s 158 rsna      300  0.161         0.040      0.050
+19481.5s 159 vindr     300  0.432         0.100      0.120
+19481.5s 160 roi  internal  300  0.401           NaN        NaN
+19481.5s 161 nih       300  0.522           NaN        NaN
+19481.5s 162 rsna      300  0.490         0.393      0.225
+19481.5s 163 vindr     300  0.559         0.141      0.215
+19482.5s 164 CHECK arm C, occluding non-lungs (expect dAUC ~0) / lungs (expect large):
+19482.5s 165 condition                              lungs  non_lungs
+19482.5s 166 arch                         cohort
+19482.5s 167 convnext_tiny                internal  0.681      0.012
+19482.5s 168 nih       0.266      0.029
+19482.5s 169 rsna      0.489      0.024
+19482.5s 170 vindr     0.305     -0.008
+19482.5s 171 densenet121                  internal  0.490      0.007
+19482.5s 172 nih       0.229      0.010
+19482.5s 173 rsna      0.347      0.003
+19482.5s 174 vindr     0.209     -0.004
+19482.5s 175 swin_tiny_patch4_window7_224 internal  0.533      0.007
+19482.5s 176 nih       0.296      0.020
+19482.5s 177 rsna      0.565      0.021
+19482.5s 178 vindr     0.374     -0.013
+19482.5s 179 vit_base_patch16_224         internal  0.245     -0.000
+19482.5s 180 nih       0.226      0.000
+19482.5s 181 rsna      0.321      0.002
+19482.5s 182 vindr     0.284     -0.001
+19482.5s 183 V14b complete in 5.40 h
+19488.4s 184 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+19488.4s 185 cells[i][c] = re.sub('\\\\\|', '|', cell)
+19488.5s 186 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+19488.5s 187 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+19489.3s 188 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+19489.4s 189 [NbConvertApp] Writing 48360 bytes to __notebook__.ipynb
+19491.9s 190 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+19492.5s 191 [NbConvertApp] Writing 418599 bytes to __results__.html

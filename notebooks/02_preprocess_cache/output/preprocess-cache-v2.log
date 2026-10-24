@@ -1,0 +1,93 @@
+6.6s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.6s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.6s 3 0.00s - to python to disable frozen modules.
+6.6s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.2s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.2s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.2s 7 0.00s - to python to disable frozen modules.
+7.2s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.6s 9 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 38.6 MB/s eta 0:00:00
+10.7s 10 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 67.2 MB/s eta 0:00:00
+10.8s 11 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 38.6 MB/s eta 0:00:00
+10.8s 12 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 67.2 MB/s eta 0:00:00
+14.8s 13 split fingerprints: {'train': 'c443e812516ecf30', 'val': 'db515415832232a1', 'test': 'e852070e975c6646'}
+748.1s 14 Kermany root: /kaggle/input/datasets/paultimothymooney/chest-xray-pneumonia/chest_xray | images to process: 5824
+772.3s 15 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+772.3s 16 
+772.3s 17 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+772.7s 18 [transformers] A new version of the following files was downloaded from https://huggingface.co/ianpan/chest-x-ray-basic:
+772.7s 19 - configuration.py
+772.7s 20 . Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+772.7s 21 
+772.7s 22 [transformers] A new version of the following files was downloaded from https://huggingface.co/ianpan/chest-x-ray-basic:
+772.7s 23 - configuration.py
+772.7s 24 . Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+776.4s 25 [transformers] A new version of the following files was downloaded from https://huggingface.co/ianpan/chest-x-ray-basic:
+776.4s 26 - unet.py
+776.4s 27 . Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+776.4s 28 
+776.4s 29 [transformers] A new version of the following files was downloaded from https://huggingface.co/ianpan/chest-x-ray-basic:
+776.4s 30 - unet.py
+776.4s 31 . Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+776.4s 32 [transformers] A new version of the following files was downloaded from https://huggingface.co/ianpan/chest-x-ray-basic:
+776.4s 33 - modeling.py
+776.4s 34 - unet.py
+776.4s 35 . Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+776.4s 36 
+776.4s 37 [transformers] A new version of the following files was downloaded from https://huggingface.co/ianpan/chest-x-ray-basic:
+776.4s 38 - modeling.py
+776.4s 39 - unet.py
+776.4s 40 . Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+1171.7s 41 RSNA: 2000 images (base: /kaggle/input/competitions/rsna-pneumonia-detection-challenge )
+1601.5s 42 NIH candidates: {0: 60361, 1: 1431} (base: /kaggle/input/datasets/nih-chest-xrays/data )
+1801.8s 43 VinDr-CXR: 838 pos / 1000 neg (pool 838 / 10606)
+1803.4s 44 0/9662  1s
+1849.4s 45 500/9662  47s
+1897.9s 46 1000/9662  96s
+1941.2s 47 1500/9662  139s
+1978.4s 48 2000/9662  176s
+2017.0s 49 2500/9662  215s
+2053.1s 50 3000/9662  251s
+2090.1s 51 3500/9662  288s
+2128.2s 52 4000/9662  326s
+2164.7s 53 4500/9662  363s
+2200.6s 54 5000/9662  399s
+2239.3s 55 5500/9662  437s
+2278.7s 56 6000/9662  477s
+2324.6s 57 6500/9662  523s
+2369.8s 58 7000/9662  568s
+2413.1s 59 7500/9662  611s
+2582.4s 60 8000/9662  780s
+2992.8s 61 8500/9662  1190s
+3334.4s 62 9000/9662  1532s
+3656.3s 63 9500/9662  1854s
+4056.8s 64 done in 2255s | failures: 0 | NIH images skipped as RSNA duplicates: 91
+4183.6s 65 lung coverage of the B/C crop: min 1.0000 (must be ≥ 0.99) | crop aspect W/H median by class: {('internal', 0): 1.219, ('internal', 1): 1.328, ('nih', 0): 1.074, ('nih', 1): 1.08, ('rsna', 0): 1.091, ('rsna', 1): 1.061, ('vindr', 0): 1.065, ('vindr', 1): 1.03}
+4184.2s 66 cohort  arm    n  lfr_chance  n_box_pos  lefr_chance  lefr_in_lung_chance  box_inside_lung_share
+4184.2s 67 internal  raw 5824       0.327          0          NaN                  NaN                    NaN
+4184.2s 68 internal  roi 5824       0.399          0          NaN                  NaN                    NaN
+4184.2s 69 internal lung 5824       0.399          0          NaN                  NaN                    NaN
+4184.2s 70 rsna  raw 2000       0.326       1000        0.123                0.318                  0.812
+4184.2s 71 rsna  roi 2000       0.444       1000        0.172                0.317                  0.812
+4184.2s 72 rsna lung 2000       0.444       1000        0.172                0.317                  0.812
+4184.2s 73 vindr  raw 1838       0.318        838        0.081                0.222                  0.879
+4184.2s 74 vindr  roi 1838       0.456        838        0.117                0.221                  0.879
+4184.2s 75 vindr lung 1838       0.456        838        0.117                0.221                  0.879
+4184.2s 76 nih  raw 2783       0.328          0          NaN                  NaN                    NaN
+4184.2s 77 nih  roi 2783       0.445          0          NaN                  NaN                    NaN
+4184.2s 78 nih lung 2783       0.445          0          NaN                  NaN                    NaN
+4184.2s 79 n   pos  fallback  suspect  tiny  lung_area  two_components
+4184.2s 80 cohort
+4184.2s 81 internal  5824  4245         0    0.005   0.0      0.251           0.990
+4184.2s 82 nih       2783  1352         0    0.041   0.0      0.241           0.997
+4184.2s 83 rsna      2000  1000         0    0.036   0.0      0.239           0.998
+4184.2s 84 vindr     1838   838         0    0.039   0.0      0.237           0.998
+4185.6s 85 V12 complete. Outputs: ['__notebook__.ipynb', 'cache_internal.npz', 'cache_nih.npz', 'cache_rsna.npz', 'cache_vindr.npz', 'chance_levels_v2.csv', 'fig_v12_qc.png', 'manifest_v2.csv', 'v12_failures.csv', 'v12_mask_qc.csv', 'v12_nih_rsna_duplicates.csv', 'v12_summary.json']
+4192.0s 86 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+4192.0s 87 cells[i][c] = re.sub('\\\\\|', '|', cell)
+4192.2s 88 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+4192.2s 89 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+4193.3s 90 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+4193.4s 91 [NbConvertApp] Writing 122549 bytes to __notebook__.ipynb
+4196.6s 92 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+4197.4s 93 [NbConvertApp] Writing 496131 bytes to __results__.html

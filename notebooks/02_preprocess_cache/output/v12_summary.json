@@ -1,0 +1,51 @@
+{
+  "seed": 42,
+  "cfg": {
+    "img_size": 224,
+    "orig_short_max": 512,
+    "mask_dilate_frac": 0.025,
+    "roi_pad_frac": 0.05,
+    "mask_feather": 9,
+    "fill_mode": "mean",
+    "raw_mode": "resize",
+    "crop_mode": "rect",
+    "mean": [
+      0.4769,
+      0.4769,
+      0.4769
+    ],
+    "std": [
+      0.2414,
+      0.2414,
+      0.2414
+    ]
+  },
+  "quick_test": false,
+  "seg_backend": "ianpan",
+  "split_fingerprints": {
+    "train": "c443e812516ecf30",
+    "val": "db515415832232a1",
+    "test": "e852070e975c6646"
+  },
+  "counts": {
+    "internal|label0": 1579,
+    "internal|label1": 4245,
+    "nih|label0": 1431,
+    "nih|label1": 1352,
+    "rsna|label0": 1000,
+    "rsna|label1": 1000,
+    "vindr|label0": 1000,
+    "vindr|label1": 838
+  },
+  "failures": 0,
+  "nih_rsna_duplicates_skipped": 91,
+  "vindr_rule": {
+    "classes": [
+      "Consolidation",
+      "Infiltration",
+      "Lung Opacity"
+    ],
+    "min_readers": 2,
+    "negative": "all 3 readers: No finding"
+  }
+}
