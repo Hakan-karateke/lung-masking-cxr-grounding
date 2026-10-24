@@ -19,7 +19,7 @@ def panel_letter(ax, letter, dx=-0.18, dy=1.02):
 
 def apply_style():
     mpl.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8, "axes.titlesize": 8, "axes.labelsize": 8,
-                         "xtick.labelsize": 6, "ytick.labelsize": 6, "legend.fontsize": 7, "axes.spines.top": False,
+                         "xtick.labelsize": 7, "ytick.labelsize": 7, "legend.fontsize": 7, "axes.spines.top": False,
                          "axes.spines.right": False, "pdf.fonttype": 42, "ps.fonttype": 42, "savefig.dpi": 300})
 
 def save(fig, name):
@@ -41,7 +41,7 @@ def fig_forest(T):
     h = [Line2D([], [], color=CC[k], marker="o", ms=4.5, lw=1.3, label=CL[k]) for k in CC] + \
         [Line2D([], [], color="#777", marker="o", mfc="white", ms=4.5, lw=0, label="open = not significant (Holm)"),
          mpl.patches.Patch(color="#ececec", label="±0.02 equivalence margin")]
-    fig.legend(handles=h, loc="lower center", ncol=4, frameon=False, bbox_to_anchor=(0.5, 0.0), fontsize=6.5, columnspacing=1.6)
+    fig.legend(handles=h, loc="lower center", ncol=4, frameon=False, bbox_to_anchor=(0.5, 0.0), fontsize=7, columnspacing=1.6)
     fig.subplots_adjust(bottom=0.25, top=0.90, left=0.13, right=0.99); save(fig, "fig3_discrimination_forest")
 
 def fig_lesion(Ls):
@@ -59,7 +59,7 @@ def fig_lesion(Ls):
             ax.set_xticks(range(4)); ax.set_xticklabels([ANAME[a] for a in ARCHO]); ax.set_xlim(-0.5, 3.5)
         axs[0, col].set_ylim(0, 2.5); axs[1, col].set_ylim(0.45, 0.8)
     for ax, ch in ((axs[0, 0], 1.0), (axs[1, 0], 0.5)):
-        ax.text(-0.45, ch + (0.025 if ch == 1 else 0.004), "chance", ha="left", va="bottom", fontsize=6, color="#555")
+        ax.text(-0.45, ch + (0.025 if ch == 1 else 0.004), "chance", ha="left", va="bottom", fontsize=7, color="#555")
     h = [Line2D([], [], color=ARMC[a], marker="o", ms=5, lw=0, label=ARML[a]) for a in ARMC]
     fig.legend(handles=h, loc="lower center", ncol=3, frameon=False, bbox_to_anchor=(0.5, -0.01))
     for ax, lt in zip(axs.ravel(), "abcd"): panel_letter(ax, lt, dx=-0.13, dy=1.08)
@@ -74,7 +74,7 @@ def fig_maps(am):
             for sp in ax.spines.values(): sp.set_edgecolor(ARMC[arm]); sp.set_linewidth(1.6)
             if i == 0: ax.set_title(f"{'RSNA' if coh == 'rsna' else 'VinDr-CXR'} · {ARML[arm].split(' ')[0]}", fontsize=7, color="black")
             if j == 0: ax.set_ylabel(ANAME[a], fontsize=7)
-    cax = fig.add_axes([0.93, 0.25, 0.012, 0.5]); cb = fig.colorbar(im, cax=cax); cb.set_label("mean evidence (normalised)", fontsize=6); cb.ax.tick_params(labelsize=6)
+    cax = fig.add_axes([0.93, 0.25, 0.012, 0.5]); cb = fig.colorbar(im, cax=cax); cb.set_label("mean evidence (normalised)", fontsize=7); cb.ax.tick_params(labelsize=7)
     fig.subplots_adjust(left=0.05, right=0.91, top=0.95, bottom=0.02); save(fig, "fig4_mean_occlusion_maps")
 
 def fig_occ(O):
@@ -91,7 +91,7 @@ def fig_occ(O):
         vm = np.nanmax(np.abs(M)); ax.imshow(M, cmap="RdBu_r", vmin=-vm, vmax=vm, aspect="auto")
         for (i, j), v in np.ndenumerate(M):
             star = "" if reg == "non_lungs" or not (Pm[i, j] < 0.05) else "*"
-            ax.text(j, i, f"{v:+.2f}{star}", ha="center", va="center", fontsize=6, color="white" if abs(v) > 0.55 * vm else "black")
+            ax.text(j, i, f"{v:+.2f}{star}", ha="center", va="center", fontsize=7, color="white" if abs(v) > 0.55 * vm else "black")
         ax.set_xticks(range(len(cohs))); ax.set_xticklabels([CN[c] for c in cohs]); ax.set_title(ttl, loc="left")
         ax.set_yticks(range(len(rowsk)))
         if ax is axs[0]:
@@ -105,7 +105,7 @@ def fig_occ(O):
 def fig_geometry(GEO, prev):
     fig, axs = plt.subplots(1, 2, figsize=(7.16, 2.9), gridspec_kw=dict(width_ratios=[1, 1.7], wspace=0.35))
     ax = axs[0]; ax.bar(range(5), prev * 100, color="#7a7a7a", width=0.7)
-    for i, v in enumerate(prev): ax.text(i, v * 100 + 2, f"{v * 100:.0f} %", ha="center", fontsize=6)
+    for i, v in enumerate(prev): ax.text(i, v * 100 + 2, f"{v * 100:.0f} %", ha="center", fontsize=7)
     ax.set_xticks(range(5)); ax.set_xticklabels(["1\nsmallest", "2", "3", "4", "5\nlargest"]); ax.set_xlabel("Original image size (quintile)")
     ax.set_ylabel("Pneumonia prevalence (%)"); ax.set_ylim(0, 110); ax.set_yticks([0, 25, 50, 75, 100]); ax.set_title("Image size alone predicts the label", loc="left")
     ax = axs[1]
@@ -118,7 +118,7 @@ def fig_geometry(GEO, prev):
     ax.set_title("AUC falls when size cannot help (all arms)", loc="left")
     h = [Line2D([], [], color=ARMC[a], marker="o", ms=4.5, lw=0, label=ARML[a]) for a in ARMC] + \
         [Line2D([], [], color="#555", marker="o", ms=4.5, lw=0, label="all images"), Line2D([], [], color="#555", marker="o", mfc="white", ms=4.5, lw=0, label="within size quintiles")]
-    fig.legend(handles=h, loc="lower center", ncol=5, frameon=False, fontsize=6, bbox_to_anchor=(0.6, 0.0))
+    fig.legend(handles=h, loc="lower center", ncol=5, frameon=False, fontsize=7, bbox_to_anchor=(0.6, 0.0))
     for a_, lt in zip(axs, "ab"): panel_letter(a_, lt, dx=-0.16, dy=1.04)
     fig.subplots_adjust(left=0.09, right=0.99, top=0.89, bottom=0.30); save(fig, "fig7_acquisition_geometry")
 
