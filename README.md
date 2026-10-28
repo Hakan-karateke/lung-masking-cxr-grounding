@@ -1,5 +1,7 @@
 # Lung masking in chest radiograph pneumonia classification
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23735669.svg)](https://doi.org/10.5281/zenodo.23735669)
+
 Code, Kaggle notebook outputs and result tables for the study
 
 > **Karateke, H., Karaduman, G.** *Lung masking in chest radiograph pneumonia classification: a leakage-controlled
@@ -101,7 +103,12 @@ python analysis/paper_figures.py                        # writes results/figures
 
 ## Citation
 
-See `CITATION.cff`. Please also cite the datasets above.
+If you use the code, splits, predictions or result tables, please cite the archived version:
+
+> Karateke, H., Karaduman, G., 2026. Lung masking in chest radiograph pneumonia classification: code, splits,
+> predictions and result tables (version v1.0.0) [dataset]. Zenodo. https://doi.org/10.5281/zenodo.23735669
+
+Machine-readable metadata are in `CITATION.cff`. Please also cite the article and the datasets above.
 
 ## License
 

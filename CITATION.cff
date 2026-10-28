@@ -12,5 +12,12 @@ authors:
     given-names: Gülşah
     orcid: "https://orcid.org/0000-0001-8034-3019"
     affiliation: "Department of Computer Engineering, Fırat University, Elazığ, Türkiye"
+version: v1.0.0
+date-released: 2026-10-28
+doi: 10.5281/zenodo.23735669
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23735669
+    description: "Zenodo archive of this repository (v1.0.0)"
 repository-code: "https://github.com/Hakan-karateke/lung-masking-cxr-grounding"
 license: MIT
