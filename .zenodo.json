@@ -1,0 +1,28 @@
+{
+  "title": "Lung masking in chest radiograph pneumonia classification: code, splits, predictions and result tables",
+  "upload_type": "software",
+  "description": "Code, Kaggle notebook outputs and result tables for the study 'Lung masking in chest radiograph pneumonia classification: a leakage-controlled factorial study of discrimination, lesion-level grounding and shortcut reliance' (submitted to Medical Image Analysis). Includes the patient-grouped, duplicate-free split files with fingerprints, per-image predictions of all 36 models, grounding and occlusion tables, statistics and figure scripts. The radiographs themselves are not redistributed; they are available from their original public sources (Kermany et al., Mendeley Data v2; RSNA Pneumonia Detection Challenge; NIH ChestX-ray14; VinDr-CXR on PhysioNet).",
+  "creators": [
+    {
+      "name": "Karateke, Hakan",
+      "affiliation": "Department of Computer Engineering, Fırat University, Elazığ, Türkiye",
+      "orcid": "0009-0004-9174-4271"
+    },
+    {
+      "name": "Karaduman, Gülşah",
+      "affiliation": "Department of Computer Engineering, Fırat University, Elazığ, Türkiye",
+      "orcid": "0000-0001-8034-3019"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chest radiography",
+    "pneumonia",
+    "lung segmentation",
+    "shortcut learning",
+    "explainability",
+    "vision transformer",
+    "external validation"
+  ],
+  "access_right": "open"
+}

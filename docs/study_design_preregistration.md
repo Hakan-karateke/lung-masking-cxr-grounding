@@ -1,6 +1,6 @@
 # Study design v2 — pre-registered analysis plan
 **Working title:** Discrimination metrics are blind to anatomical and lesion-level grounding: a controlled, multi-architecture ablation of lung masking in chest radiograph pneumonia classification
-**Target venue:** Medical Image Analysis (after IEEE Access rejection)
+**Target venue:** Medical Image Analysis (after rejection by IEEE Journal of Biomedical and Health Informatics; venue name corrected on 2026-10-28, the earlier text named the wrong journal)
 **Status:** frozen before any v2 experiment is run. Any deviation is logged in §10 with the date and reason.
 
 ---
